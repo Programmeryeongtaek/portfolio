@@ -34,7 +34,6 @@ body {
 
 a {
   text-decoration: none;
-  color: ;
 }
 
 ul {
@@ -82,3 +81,55 @@ p {
 }
 
 /* Navbar */
+#navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: var(--color-black);
+  transition: all var(--animation-duration) ease-in-out;
+  z-index: 1;
+}
+
+#navbar.navbar--dark {
+  background-color: var(--color-black);
+  padding: 8px;
+}
+
+.navbar__logo {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+  color: white;
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__menu__item {
+  padding: 8px 12px;
+  margin: 0 4px;
+  color: var(--color-white);
+  cursor: pointer;
+  border-radius: var(--size-border-radius);
+}
+
+.navbar__menu__item.active {
+  border: 1px solid var(--color-white);
+}
+
+.navbar__menu__item:hover {
+  border-color: var(--color-white);
+  background-color: var(--color-white);
+}
+
+.navbar__toggle-btn {
+  position: absolute;
+  top: 24px;
+  right: 30px;
+  font-size: 24px;
+  color: var(--color-white);
+  display: none;
+}
