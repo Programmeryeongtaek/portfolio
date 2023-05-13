@@ -216,3 +216,40 @@ p {
 .about__me__description {
   font-size: var(--font-small);
 }
+
+/* Attitude */
+#attitudes {
+  background-color: aquamarine;
+}
+
+.attitudes {
+  margin: 40px;
+}
+
+.attitude {
+  display: flex;
+  margin: 32px 0;
+}
+.attitude__avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.attitude__icon:nth-child(odd) {
+  margin-right: 40px;
+}
+
+.attitude__icon:nth-child(even) {
+  margin-left: 40px;
+}
+
+.attitude__description {
+  padding: 10px;
+  background-color: var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+
+.attitude__description p {
+  color: blue;
+}
