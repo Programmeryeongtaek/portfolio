@@ -10,3 +10,40 @@ document.addEventListener('scroll', () => {
     navbar.classList.remove('navbar--dark');
   }
 });
+
+// Handle scrolling when tapping on the navbar menu
+const navbarMenu = document.querySelector('.navbar__menu');
+navbarMenu.addEventListener('click', (e) => {
+  const target = e.target;
+  const link = target.dataset.link;
+  if (link == null) {
+    return;
+  }
+  navbarMenu.classList.remove('open');
+  scrollIntoView(link);
+});
+
+const sectionIds = [
+  '#home',
+  '#about',
+  '#attitudes',
+  '#skills',
+  '#work',
+  '#contact',
+];
+
+const navItems = sectionIds.map((id) =>
+  document.querySelector(`[data-link="${id}"]`)
+);
+let selectedNavItem = navItems[0];
+function selectNavItem(selected) {
+  selectedNavItem.classList.remove('active');
+  selectedNavItem = selected;
+  selectedNavItem.classList.add('active');
+}
+
+function scrollIntoView(selector) {
+  const scrollTo = document.querySelector(selector);
+  scrollTo.scrollIntoView({ behavior: 'smooth' });
+  selectNavItem(navItems[sectionIds.indexOf(selector)]);
+}
