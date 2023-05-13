@@ -76,7 +76,6 @@ h3 {
 p {
   font-size: var(--font-regular);
   font-weight: var(--font-regular);
-  color: var(--color-black);
   margin: 4px 0;
 }
 
@@ -252,4 +251,49 @@ p {
 
 .attitude__description p {
   color: blue;
+}
+
+/* Skills */
+#skills {
+  background-color: yellow;
+}
+
+.skillset {
+  display: flex;
+  background-color: whitesmoke;
+  color: black;
+  margin: 20px 0;
+}
+
+.skillset__title {
+  color: green;
+}
+
+.skillset__left {
+  flex-basis: 60%;
+  background-color: white;
+  padding: 20px 40px;
+}
+
+.skill {
+  margin-bottom: 32px;
+}
+.skill__description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill__bar {
+  width: 100%;
+  height: 3px;
+  background-color: grey;
+}
+
+.skill__value {
+  height: 3px;
+  background-color: aqua;
+}
+
+.skillset__right {
+  flex-basis: 40%;
 }
