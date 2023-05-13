@@ -407,3 +407,29 @@ p {
   margin-top: 8px;
   background-color: bisque;
 }
+
+/* Contact */
+#contact {
+  background-color: goldenrod;
+}
+
+.contact__title,
+.contact__email,
+.contact__right {
+  color: var(--color-white);
+}
+
+.contact__title {
+  margin: 32px 0;
+}
+
+.contact__links {
+  font-size: var(--font-large);
+  margin: 24px 0;
+  transition: all var(--animation-duration) ease-in;
+}
+
+.contact__links img:hover {
+  transform: scale(1.1);
+  color: yellow;
+}
