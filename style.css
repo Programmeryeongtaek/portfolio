@@ -3,6 +3,17 @@
   /* Color */
   --color-black: #000000;
   --color-white: #ffffff;
+  --color-light-white: #eeeeee;
+  --color-dark-white: #bdbdbd;
+
+  --color-light-grey-green: #CBE9AC;
+  --color-soft-light-green: #A0D468;
+  --color-dull-light-green: #85C141;
+  --color-yellow-green: #9acd32;
+  --color-lttle-light-green: #b3da65;
+  --color-lime: #00ff00;
+
+  --color-lttle-light-grey: #a0a0a0;
 
   /* Font size */
   --font-large: 48px;
@@ -29,11 +40,13 @@
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
 
 a {
   text-decoration: none;
+  color: var(--color-white);
 }
 
 ul {
@@ -87,13 +100,13 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  background-color: var(--color-black);
+  background-color: var(--color-light-grey-green);
   transition: all var(--animation-duration) ease-in-out;
   z-index: 1;
 }
 
 #navbar.navbar--dark {
-  background-color: var(--color-black);
+  background-color: var(--color-dull-light-green);
   padding: 8px;
 }
 
@@ -110,7 +123,7 @@ p {
 .navbar__menu__item {
   padding: 8px 12px;
   margin: 0 4px;
-  color: var(--color-white);
+  color: blueviolet;
   cursor: pointer;
   border-radius: var(--size-border-radius);
 }
@@ -136,14 +149,15 @@ p {
 /* Home */
 #home {
   background: center/cover no-repeat;
+  background-color: #CBE9AC;
   padding: 40px;
   padding-top: 120px;
   text-align: center;
 }
 
 .home__avatar {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   border: 2px solid var(--color-black);
 }
@@ -180,6 +194,9 @@ p {
 }
 
 /* About */
+#about {
+  background-color: var(--color-light-white);
+}
 .about__me {
   display: flex;
   justify-content: space-between;
@@ -187,8 +204,9 @@ p {
 }
 
 .about__me__icon {
-  width: 170px;
-  height: 170px;
+  display: flex;
+  width: 270px;
+  height: 270px;
   line-height: 170;
   font-size: 70px;
   margin: auto;
@@ -200,6 +218,15 @@ p {
 
 .about__me img {
   transition: all var(--animation-duration) ease;
+  width: 270px;
+  height: 270px;
+  line-height: 170;
+  font-size: 70px;
+  margin: auto;
+  color: var(--color-dull-light-green);
+  border: 2px solid var(--color-dull-light-green);
+  border-radius: 50%;
+  margin-bottom: 16px;
 }
 
 .about__me img:hover {
@@ -218,7 +245,7 @@ p {
 
 /* Attitude */
 #attitudes {
-  background-color: aquamarine;
+  background-color: var(--color-soft-light-green);
 }
 
 .attitudes {
@@ -229,9 +256,9 @@ p {
   display: flex;
   margin: 32px 0;
 }
-.attitude__avatar {
-  width: 150px;
-  height: 150px;
+.attitude img {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
@@ -255,7 +282,7 @@ p {
 
 /* Skills */
 #skills {
-  background-color: yellow;
+  background-color: var(--color-dark-white);
 }
 
 .skillset {
@@ -299,6 +326,9 @@ p {
 }
 
 /* Work */
+#work {
+  background-color: var(--color-yellow-green);
+}
 .work__categories {
   margin: 40px;
 }
@@ -410,7 +440,7 @@ p {
 
 /* Contact */
 #contact {
-  background-color: goldenrod;
+  background-color: var(--color-lttle-light-grey);
 }
 
 .contact__title,
@@ -431,7 +461,7 @@ p {
 
 .contact__links img:hover {
   transform: scale(1.1);
-  color: yellow;
+  color: gold;
 }
 
 /* Scroll */
