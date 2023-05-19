@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Works from '../pages/Works';
 import '../styles/Navbar.css';
 
 export default function Navbar() {
@@ -14,13 +11,13 @@ export default function Navbar() {
       </div>
       <div className='navbar__menu'>
         <Link to="/" className='navbar__menu__item active'>
-          <Home />
+          Home
         </Link>
         <Link to="/about" className='navbar__menu__item'>
-          <About />
+          About
         </Link>
         <Link to="/work" className='navbar__menu__item'>
-          <Works />
+          Works
         </Link>
       </div>
       <button className='navbar__toggle-btn'>
