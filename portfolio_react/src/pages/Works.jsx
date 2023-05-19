@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import '../styles/Works.css';
 
 export default function Works() {
   return (
-    <section className='section'>
+    <section id='section' className='section'>
       <div id='works' className='section__container'>
         <h1>프로젝트</h1>
         <h3>공부목록</h3>
@@ -42,6 +43,59 @@ export default function Works() {
               <span>사용 기술</span>
             </div>
           </a>
+        </div>
+      </div>
+
+      <div id='skills' className='section__container'>
+        <h1>스킬</h1>
+        <h2>스킬과 역량</h2>
+        <p>각 항목에 mousehover하면 다룰 수 있는 역량 나타나기</p>
+        <div className='skillset'>
+          <div className='skillset__left'>
+            <h3 className='skillset__title'>스킬</h3>
+            <div className='skill'>
+              <div className='skill__description'>
+                <span>HTML</span>
+                <span>99%</span>
+              </div>
+              <div className='skill__bar'>
+                <div className='skill__value'></div>
+              </div>
+            </div>
+            <div className='skill'>
+              <div className='skill__description'>
+                <span>CSS</span>
+                <span>99%</span>
+              </div>
+              <div className='skill__bar'>
+                <div className='skill__value'></div>
+              </div>
+            </div>
+            <div className='skill'>
+              <div className='skill__description'>
+                <span>JavaScript</span>
+                <span>99%</span>
+              </div>
+              <div className='skill__bar'>
+                <div className='skill__value'></div>
+              </div>
+            </div>
+            <div className='skill'>
+              <div className='skill__description'>
+                <span>TypeScript</span>
+                <span>99%</span>
+              </div>
+              <div className='skill__bar'>
+                <div className='skill__value'></div>
+              </div>
+            </div>
+          </div>
+          <div className='skillset__right'>
+            <h3 className='skillset__title'>역량</h3>
+            <div>
+              mousehover하면 각 스킬의 역량 나타나게 하기
+            </div>
+          </div>
         </div>
       </div>
     </section>
