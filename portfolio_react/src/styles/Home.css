@@ -1,0 +1,42 @@
+#home {
+  width: 100%;
+  background: center/cover no-repeat;
+  background-color: var(--color-light-grey-green);
+  padding: 40px;
+  padding-top: 120px;
+  display: flex;
+  text-align: center;
+}
+
+.section__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__avatar {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.home__title,
+.home__description {
+  color: green;
+}
+
+.home__goto__works {
+  color: green;
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid green;
+  border-radius: var(--size-border-radius);
+}
+
+.home__goto__works:hover {
+  background-color: greenyellow;
+}
