@@ -16,6 +16,7 @@
   line-height: 170;
   margin: auto;
   margin-bottom: 16px;
+  object-fit: cover;
 }
 
 .about__me img {
@@ -53,6 +54,7 @@
   height: 200px;
   border-radius: 50%;
   border: 1px solid green;
+  object-fit: cover;
 }
 
 .attitude__icon:nth-child(odd) {
