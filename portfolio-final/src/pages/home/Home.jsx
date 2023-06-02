@@ -12,14 +12,18 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>학습하는 청년, 오영택</span> 프론트엔드 개발자
+            <span>학습하는 청년, 오영택</span> 
+            <br /> 프론트엔드 개발자
           </h1>
 
           <p className="home__description">
-            유능한 프론트엔드 개발자로서 자리잡기 위해 끊임없이 배우고 질문하고 정리하고 있습니다.
+            유능한 프론트엔드 개발자로서 자리잡기 위해 분투하고 있습니다.
+            <br /> 끊임없이 배우고 질문하고 정리하고 있습니다.
+            <br /> 나의 성장이 모두의 성장이 되는 사람으로 살아가고 있습니다.
           </p>
 
           <Link to='/about' className='button'>
+            자기소개
             <span className="button__icon">
               <FaArrowRight />
             </span>
