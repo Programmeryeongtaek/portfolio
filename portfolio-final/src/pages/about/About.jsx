@@ -1,7 +1,9 @@
 import React from 'react';
 import './about.css';
 import Info from './Info';
+import Hobby from './Hobby';
 import { FaDownload } from 'react-icons/fa';
+import Attitudes from './Attitudes';
 
 const About = () => {
   return (
@@ -28,11 +30,48 @@ const About = () => {
               </span>
             </a>
           </div>
+        </div>
+      </section>
 
-          <div className="stats grid">
-            
+      <div className="separator"></div>
+
+      <section className="resume">
+        <h3 className="section__subtitle subtitle__center">
+          경험 & 학습
+        </h3>
+
+        <div className="resume__container grid">
+          <div className="resume__data">
+            경험
+          </div>
+
+          <div className="resume__data">
+            학습
           </div>
         </div>
+      </section>
+
+      <div className="separator"></div>
+
+      <section className="section hobby">
+        <h3 className="section__subtitle subtitle__center">
+          취미 & 태도
+        </h3>
+
+        <div className="hobby__container grid">
+          <Hobby />
+        </div>
+        <div className="attitudes__container grid">
+          <Attitudes />
+        </div>
+      </section>
+
+      <div className="separator"></div>
+
+      <section className="skills">
+        <h3 className="section__subtitle subtitle__center">
+          스킬 역량
+        </h3>
       </section>
     </main>
   );
