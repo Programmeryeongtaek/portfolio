@@ -53,20 +53,18 @@ const About = () => {
           </div>
 
           <div className="resume__data">
-            <div className="resume__data">
-              {resume.map((val) => {
-                if (val.category === 'learn') {
-                  return <ResumeItem key={val.id} {...val} />
-                }
-              })}
-            </div>
+            {resume.map((val) => {
+              if (val.category === 'learn') {
+                return <ResumeItem key={val.id} {...val} />
+              }
+            })}  
           </div>
         </div>
       </section>
 
       <div className="separator"></div>
 
-      <section className="section hobby">
+      <section className="section char">
         <h3 className="section__subtitle subtitle__center">
           취미 & 태도
         </h3>
