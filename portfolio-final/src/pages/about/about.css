@@ -12,6 +12,12 @@
   margin-bottom: 20px;
 }
 
+.separator {
+  border-top: 1px solid var(--border-color);
+  max-width: 40%;
+  margin: 72px auto 56px;
+}
+
 /* ===== Info ===== */
 .info__list {
   row-gap: 20px;
