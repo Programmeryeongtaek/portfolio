@@ -4,6 +4,9 @@ import Info from './Info';
 import Hobby from './Hobby';
 import { FaDownload } from 'react-icons/fa';
 import Attitudes from './Attitudes';
+import { resume } from '../../data';
+import ResumeItem from './ResumeItem';
+import Skills from './Skills';
 
 const About = () => {
   return (
@@ -42,11 +45,21 @@ const About = () => {
 
         <div className="resume__container grid">
           <div className="resume__data">
-            경험
+            {resume.map((val) => {
+              if (val.category === 'experience') {
+                return <ResumeItem key={val.id} {...val} />
+              }
+            })}
           </div>
 
           <div className="resume__data">
-            학습
+            <div className="resume__data">
+              {resume.map((val) => {
+                if (val.category === 'learn') {
+                  return <ResumeItem key={val.id} {...val} />
+                }
+              })}
+            </div>
           </div>
         </div>
       </section>
@@ -72,6 +85,10 @@ const About = () => {
         <h3 className="section__subtitle subtitle__center">
           스킬 역량
         </h3>
+
+        <div className="skills__container grid">
+          <Skills />
+        </div>
       </section>
     </main>
   );
