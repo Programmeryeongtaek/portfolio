@@ -6,20 +6,24 @@ import 'react-circular-progressbar/dist/styles.css';
 const Skills = () => {
   return (
     <>
-      {skills.map(({ title, percentage }, index) => {
+      {skills.map(({ title, percentage, content }, index) => {
         return (
-          <div className="progress_box" key={index}>
-            <div className="progress__circle">
-              <CircularProgressbar 
-                strokeWidth={7.5}
-                text={`${percentage}%`}
-                value={percentage}
-              />
+          <div className='skills__ability grid' key={index}>
+            <div className="skills__ability-box">
+              <div className="progress__circle">
+                <CircularProgressbar
+                  strokeWidth={7.5}
+                  text={`${percentage}%`}
+                  value={percentage}
+                  />
+              </div>
+              <h3 className="skills__title">
+                {title}
+              </h3>
             </div>
-
-            <h3 className="skills__title">
-              {title}
-            </h3>
+            <ul className="skills__description">
+              <li>{content}</li>
+            </ul>
           </div>
         )
       })}
