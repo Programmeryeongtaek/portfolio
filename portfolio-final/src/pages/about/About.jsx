@@ -6,7 +6,7 @@ import { FaDownload } from 'react-icons/fa';
 import Attitudes from './Attitudes';
 import { resume } from '../../data';
 import ResumeItem from './ResumeItem';
-import Skills from './Skills';
+import Skills, { Standard } from './Skills';
 
 const About = () => {
   return (
@@ -32,6 +32,9 @@ const About = () => {
                 <FaDownload />
               </span>
             </a>
+          </div>
+          <div className="about__picture">
+            <img src="" alt="" className="about__profile" />
           </div>
         </div>
       </section>
