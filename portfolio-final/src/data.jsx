@@ -1,11 +1,20 @@
 import {
   FaBriefcase,
+  FaCode,
   FaGraduationCap,
 } from 'react-icons/fa';
 import { AiOutlineHome } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsFillPersonLinesFill, BsTools } from 'react-icons/bs';
 import { HiOutlineDocumentReport } from 'react-icons/hi';
-import { FiSend } from 'react-icons/fi';
+import { FiExternalLink, FiFileText, FiSend } from 'react-icons/fi';
+
+import Work1 from './assets/Clone Website1.png';
+import Work2 from './assets/Clone Website1.png';
+import Work3 from './assets/Clone Website1.png';
+import Work4 from './assets/Clone Website1.png';
+import Work5 from './assets/Clone Website1.png';
+import Work6 from './assets/Clone Website1.png';
+import Work7 from './assets/Clone Website1.png';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -271,57 +280,211 @@ export const themeMode = [
 export const projects = [
   {
     id: 1,
-    img: '',
+    img: Work1,
     category: 'Vanila JS',
-    title: 'A',
+    title: 'Portfolio Website',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
     description:
-      '',
+      'asdasdasdsda',
   },
   {
     id: 2,
-    img: '',
+    img: Work2,
     category: 'Personal',
-    title: 'A',
+    title: 'Portfolio Website',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
     description:
       '',
   },
   {
     id: 3,
-    img: '',
+    img: Work3,
     category: 'Personal',
-    title: 'A',
+    title: 'Portfolio Website',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
     description:
       '',
   },
   {
     id: 4,
-    img: '',
+    img: Work4,
     category: 'Personal',
-    title: 'A',
+    title: 'Portfolio Website',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
     description:
       '',
   },
   {
     id: 5,
-    img: '',
+    img: Work5,
     category: 'React',
-    title: 'A',
+    title: 'Portfolio Website',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
     description:
       '',
   },
   {
     id: 6,
-    img: '',
+    img: Work6,
     category: 'Vanila JS',
-    title: 'A',
+    title: 'Portfolio Website',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
     description:
       '',
   },
   {
     id: 7,
-    img: '',
+    img: Work7,
     category: 'React',
-    title: 'A',
+    title: 'Portfolio Website',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
     description:
       '',
   },
