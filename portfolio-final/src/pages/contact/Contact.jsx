@@ -30,10 +30,9 @@ const Contact = () => {
   return (
     <main className='section container'>
       <secton className="contact">
-        <h2 className="section__title">연락방법</h2>
-        <p className="section__subtitle">
-          어떤 내용이든 환영합니다.
-        </p>
+        <h2 className="section__title">
+          Contact <span>Me</span>
+        </h2>
 
         <div className="contact__container container grid">
           <div className="contact__content">
