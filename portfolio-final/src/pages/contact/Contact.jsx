@@ -138,6 +138,14 @@ const Contact = () => {
           </button>
         </div>
       </secton>
+
+      <div className="separator"></div>
+
+      <section className="guest">
+        <h3 className="section__subtitle subtitle__center">
+          방명록 작성
+        </h3>
+      </section>
     </main>
   );
 };
