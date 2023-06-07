@@ -2,6 +2,43 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+.portfolio__list {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  margin-bottom: 60px;
+}
+
+.portfolio__list-item {
+  color: var(--title-color);
+  font-size: var(--medium-font-size);
+  font-weight: var(--weight-700);
+  position: relative;
+  transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+  cursor: pointer;
+}
+
+.portfolio__list-item::before {
+  content: '';
+  width: 40px;
+  height: 2px;
+  max-width: 60%;
+  background-color: var(--first-color);
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
+}
+
+.active-work {
+  color: var(--first-color);
+}
+
+.active-work::before,
+.portfolio__list-item:hover::before {
+  width: 40px;
+}
+
 .portfolio__item {
   position: relative;
   border-radius: 10px;
