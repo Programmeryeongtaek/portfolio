@@ -22,7 +22,7 @@ const Nav = () => {
         <a href="#" className="nav__logo">Yeong</a>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
-          <ul className="nav__list grid">
+          <ul className="nav__list">
             <li className="nav__item">
               <a 
                 href="#home" 
@@ -34,7 +34,7 @@ const Nav = () => {
                   : "nav__link"
                 }
               >
-                <AiOutlineHome /> Home
+                <AiOutlineHome className='nav__icon' /> Home
               </a>
             </li>
 
@@ -49,7 +49,7 @@ const Nav = () => {
                   : "nav__link"
                 }
               >
-                <BsFillPersonLinesFill /> About
+                <BsFillPersonLinesFill className='nav__icon' /> About
               </a>
             </li>
 
@@ -64,7 +64,7 @@ const Nav = () => {
                   : "nav__link"
                 }
               >
-                <HiOutlineDocumentReport /> Work
+                <HiOutlineDocumentReport className='nav__icon' /> Work
               </a>
             </li>
 
@@ -79,12 +79,12 @@ const Nav = () => {
                   : "nav__link"
                 }
               >
-                <FiSend /> Contact
+                <FiSend className='nav__icon' /> Contact
               </a>
             </li>
           </ul>
 
-          <FaTimes className='nav__clise' onClick={() => showMenu(!Toggle)} />
+          <FaTimes className='nav__close' onClick={() => showMenu(!Toggle)} />
         </div>
 
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
