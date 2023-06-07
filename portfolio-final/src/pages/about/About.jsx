@@ -6,7 +6,7 @@ import { FaDownload } from 'react-icons/fa';
 import Attitudes from './Attitudes';
 import { resume } from '../../data';
 import ResumeItem from './ResumeItem';
-import Skills, { Standard } from './Skills';
+import Skills from './Skills';
 
 const About = () => {
   return (
