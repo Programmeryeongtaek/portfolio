@@ -102,38 +102,38 @@ const Contact = () => {
                   className='contact__form-input' 
                 />
               </div>
+            </div>
 
-              <div className="contact__form-div">
-                <label className="contact__form-tag">
-                  제목 <b>*</b>
-                </label>
-                <input
-                  type="text"
-                  name='subject'
-                  onChange={handleChange}
-                  value={form.subject}
-                  required 
-                  className="contact__form-input"
-                />
-              </div>
-
-              <div className="contact__form-div contact__form-area">
-                <label className="contact__form-tag">
-                  내용 <b>*</b>
-                </label>
-                <textarea 
-                  name="message"
-                  onChange={handleChange}
-                  value={form.message}
-                  className='contact__form-input'
-                ></textarea>
-              </div>
+            <div className="contact__form-div">
+              <label className="contact__form-tag">
+                제목 <b>*</b>
+              </label>
+              <input
+                type="text"
+                name='subject'
+                onChange={handleChange}
+                value={form.subject}
+                required 
+                className="contact__form-input"
+              />
+            </div>
+          
+            <div className="contact__form-div contact__form-area">
+              <label className="contact__form-tag">
+                내용 <b>*</b>
+              </label>
+              <textarea 
+                name="message"
+                onChange={handleChange}
+                value={form.message}
+                className='contact__form-input'
+              ></textarea>
             </div>
           </form>
         </div>
 
         <div className="contact__submit">
-          <button className="contact__btn">
+          <button type='submit' className="contact__btn">
             전송하기
           </button>
         </div>
