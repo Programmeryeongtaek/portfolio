@@ -1,7 +1,4 @@
-.portfolio__container {
-  grid-template-columns: repeat(3, 1fr);
-}
-
+/* filter */
 .portfolio__list {
   display: flex;
   justify-content: center;
@@ -15,7 +12,6 @@
   font-weight: var(--weight-700);
   position: relative;
   transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
-  cursor: pointer;
 }
 
 .portfolio__list-item::before {
@@ -39,10 +35,15 @@
   width: 40px;
 }
 
-.portfolio__item {
-  position: relative;
-  border-radius: 10px;
-  overflow: hidden;
+/* portfolio item */
+.portfolio__container {
+  grid-template-columns: repeat(3, 4fr);
+
+}
+
+.portfolio__items {
+  border: 1px solid var(--first-color);
+  width: 350px;
   cursor: pointer;
 }
 
@@ -56,86 +57,46 @@
   transform: all 0.5s ease;
 }
 
-.portfolio__item:hover .portfolio__hover {
+.portfolio__items:hover .portfolio__hover {
   opacity: 1;
+  z-index: 100;
 }
 
 .portfolio__title {
-  color: var(--text-white);
-  font-size: var(--large-font-size);
+  color: var(--text-color);
+  font-size: var(--h3-font-size);
   font-weight: var(--weight-500);
   transform: translateY(-20px);
   transition: all 0.5s ease;
 }
 
-.portfolio__item:hover .portfolio__title {
+.portfolio__items:hover .portfolio__title {
   transform: translateY(0);
 }
 
-.portfolio__modal {
-  position: fixed;
-  inset: 0;
-  background-color: hsla(0, 0%, 0%, 0.7);
-  z-index: 1000;
-  display: grid;
-  place-items: center;
-  padding: 15px;
+.portfolio__img-wrapper {
+  border-radius: 18px;
+  overflow: hidden;
 }
 
-.portfolio__modal-content {
-  background-color: var(--container-color);
-  max-width: 650px;
+.portfolio__img {
+  height: 220px;
   width: 100%;
-  padding: 32px;
-  border-radius: 10px;
-  position: relative;
+  vertical-align: middle;
+  transition: all 0.6s cubic-bezier(0.3, 0, 0.3, 1);
 }
 
-.modal__close {
-  position: absolute;
-  top: -3.5%;
-  right: -8.5%;
-  width: 50px;
-  height: 50px;
-  filter: invert(0.8);
+.portfolio__items:hover .portfolio__img {
+  transform: scale(1.04);
 }
 
-.modal__title {
-  text-align: center;
+.portfolio__category {
   color: var(--first-color);
-  font-size: var(--h2-font-size);
-  letter-spacing: 3px;
-  margin-bottom: 24px;
-}
-
-.modal__list {
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 10px !important;
-  margin-bottom: 24px;
-}
-
-.modal__item {
-  display: flex;
-  align-items: center;
-  column-gap: 8px;
-}
-
-.item__icon {
-  display: flex;
-}
-
-.item__title,
-.item__details {
-  color: var(--title-color);
   font-size: var(--small-font-size);
+  font-weight: var(--weight-700);
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: end;
 }
 
-.item__details {
-  font-weight: var(--weight-600);
-}
-
-.modal__img {
-  width: 100%;
-  height: 350px;
-  object-fit: cover;
-}
+/* modal */
