@@ -134,7 +134,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__submit">
-          <button className="btn">
+          <button className="contact__btn">
             전송하기
           </button>
         </div>
