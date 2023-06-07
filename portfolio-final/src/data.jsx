@@ -2,6 +2,10 @@ import {
   FaBriefcase,
   FaGraduationCap,
 } from 'react-icons/fa';
+import { AiOutlineHome } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { HiOutlineDocumentReport } from 'react-icons/hi';
+import { FiSend } from 'react-icons/fi';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -13,6 +17,33 @@ import Theme7 from './assets/yellowgreen.png';
 import Theme8 from './assets/orange.png';
 import Theme9 from './assets/green.png';
 import Theme10 from './assets/yellow.png';
+
+export const links = [
+  {
+    id: 1,
+    name: 'Home',
+    icon: <AiOutlineHome className='nav__icon' />,
+    path: '/',
+  },
+  {
+    id: 2,
+    name: 'About',
+    icon: <BsFillPersonLinesFill className='nav__icon' />,
+    path: '/about',
+  },
+  {
+    id: 3,
+    name: 'Work',
+    icon: <HiOutlineDocumentReport className='nav__icon' />,
+    path: '/work',
+  },
+  {
+    id: 4,
+    name: 'Contact',
+    icon: <FiSend className='nav__icon' />,
+    path: '/contact',
+  },
+];
 
 export const personalInfo = [
   {
