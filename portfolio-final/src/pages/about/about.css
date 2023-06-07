@@ -39,6 +39,14 @@
   font-weight: var(--weight-600);
 }
 
+.about__picture {
+  
+}
+
+.about__profile {
+  
+}
+
 /* ===== Resume ===== */
 .resume__item {
   position: relative;
@@ -110,6 +118,43 @@
 
 /* ===== Info ===== */
 
-/* ===== Info ===== */
+/* ===== Skills ===== */
+.skills__container {
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  row-gap: 48px;
+}
+
+.progress__circle {
+  width: 240px;
+  height: 240px;
+}
+
+.CircularProgressbar-path {
+  stroke: var(--first-color) !important;
+  stroke-linecap: butt !important;
+}
+
+.CircularProgressbar-trail {
+  stroke: var(--container-color) !important;
+}
+
+.CircularProgressbar-text {
+  fill: var(--title-color) !important;
+  font-family: var(--second-font);
+  font-size: var(--large-font-size) !important;
+}
+
+.skills__ability {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skills__ability-box {
+
+}
+
+.skills__description {
+
+}
 
 /* ===== Info ===== */
