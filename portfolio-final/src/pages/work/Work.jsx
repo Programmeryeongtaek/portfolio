@@ -5,14 +5,14 @@ import ProjectsItem from './ProjectsItem';
 import { AnimatePresence } from 'framer-motion';
 import List from './List';
 
-const allNavList = ['all', ...new Set(projects.map((project) => project.category))];
+const allNavList = ['All', ...new Set(projects.map((project) => project.category))];
 
 const Work = () => {
   const [projectItems, setMenuItems] = useState(projects);
   const [navList, setCategories] = useState(allNavList);
 
   const filterItems = (category) => {
-    if (category === 'all') {
+    if (category === 'All') {
       setMenuItems(projects);
       return;
     }
