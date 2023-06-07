@@ -98,9 +98,23 @@ const Contact = () => {
                   type="email"
                   name='email'
                   onChange={handleChange}
-                  value={form.subject}
+                  value={form.email}
                   required
                   className='contact__form-input' 
+                />
+              </div>
+
+              <div className="contact__form-div">
+                <label className="contact__form-tag">
+                  제목 <b>*</b>
+                </label>
+                <input
+                  type="text"
+                  name='subject'
+                  onChange={handleChange}
+                  value={form.subject}
+                  required 
+                  className="contact__form-input"
                 />
               </div>
 
