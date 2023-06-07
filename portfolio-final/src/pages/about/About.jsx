@@ -16,12 +16,14 @@ const About = () => {
           About <span>Me</span>
         </h2>
 
+        <div className="separator"></div>
+
+        <h3 className="section__subtitle subtitle__center">
+          개인정보
+        </h3>
+
         <div className="about__container grid">
           <div className="about__info">
-            <h3 className="section__subtitle">
-              개인정보
-            </h3>
-
             <ul className="info__list grid">
               <Info />
             </ul>
@@ -67,7 +69,7 @@ const About = () => {
 
       <div className="separator"></div>
 
-      <section className="section char">
+      <section className="char">
         <h3 className="section__subtitle subtitle__center">
           취미 & 태도
         </h3>

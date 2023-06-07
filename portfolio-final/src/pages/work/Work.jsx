@@ -29,7 +29,13 @@ const Work = () => {
       <h2 className="section__title">
         <span>Work & Study</span>
       </h2>
+
+      <div className="separator"></div>
+
       <section className="work">
+        <h3 className="section__subtitle subtitle__center">
+          최근 작품
+        </h3>
         <List list={navList} filterItems={filterItems} />
 
         <div className="portfolio__container container grid">
@@ -39,8 +45,12 @@ const Work = () => {
         </div>
       </section>
 
-      <section className="study">
+      <div className="separator"></div>
 
+      <section className="study">
+        <h3 className="section__subtitle subtitle__center">
+          공부내역
+        </h3>
       </section>
     </main>
   );

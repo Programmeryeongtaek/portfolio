@@ -34,6 +34,12 @@ const Contact = () => {
           Contact <span>Me</span>
         </h2>
 
+        <div className="separator"></div>
+
+        <h3 className="section__subtitle subtitle__center">
+          연락방법
+        </h3>
+
         <div className="contact__container container grid">
           <div className="contact__content">
             <div className="contact__card">
@@ -51,7 +57,7 @@ const Contact = () => {
               </span>
 
               <h3 className="contact__card-title">이름</h3>
-              <p className="contact__card-data">오영택</p>
+              <p className="contact__card-data">오 영택</p>
             </div>
 
             <div className="contact__card">
