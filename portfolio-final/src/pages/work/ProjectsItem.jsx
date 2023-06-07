@@ -28,7 +28,9 @@ const ProjectsItem = ({ projectItems }) => {
                 <h3 className="portfolio__title">{title}</h3>
               </div>
               <span className="portfolio__category">{category}</span>
-              <img src={img} alt="" className="portfolio__img"/>
+              <div className="portfolio__img-wrapper">
+                <img src={img} alt="" className="portfolio__img"/>
+              </div>
               <p className="portfolio__description">{description}</p>
             
 
