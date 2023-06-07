@@ -266,3 +266,63 @@ export const themeMode = [
     color: 'hsl(42, 100%, 50%)',
   },
 ];
+
+// project list
+export const projects = [
+  {
+    id: 1,
+    img: '',
+    category: 'Vanila JS',
+    title: 'A',
+    description:
+      '',
+  },
+  {
+    id: 2,
+    img: '',
+    category: 'Personal',
+    title: 'A',
+    description:
+      '',
+  },
+  {
+    id: 3,
+    img: '',
+    category: 'Personal',
+    title: 'A',
+    description:
+      '',
+  },
+  {
+    id: 4,
+    img: '',
+    category: 'Personal',
+    title: 'A',
+    description:
+      '',
+  },
+  {
+    id: 5,
+    img: '',
+    category: 'React',
+    title: 'A',
+    description:
+      '',
+  },
+  {
+    id: 6,
+    img: '',
+    category: 'Vanila JS',
+    title: 'A',
+    description:
+      '',
+  },
+  {
+    id: 7,
+    img: '',
+    category: 'React',
+    title: 'A',
+    description:
+      '',
+  },
+];
