@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './nav.css';
-import { AiOutlineAppstore } from 'react-icons/ai';
 import { links } from '../../data';
 import { NavLink } from 'react-router-dom';
 
@@ -41,9 +40,6 @@ const Nav = () => {
         <span></span>
         <span></span>
         <span></span>
-      </div>
-      <div className="nav__toggler" onClick={() => setToggle(!Toggle)}>
-        <AiOutlineAppstore />
       </div>
     </nav>
   );
