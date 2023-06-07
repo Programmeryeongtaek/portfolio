@@ -3,6 +3,7 @@ import './home.css';
 import Profile from '../../assets/소개.jpg';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
+import HomeSocialLink from './HomeSocialLink';
 
 const Home = () => {
   return (
@@ -21,6 +22,8 @@ const Home = () => {
             <br /> 끊임없이 배우고 질문하고 정리하고 있습니다.
             <br /> 나의 성장이 모두의 성장이 되는 사람으로 살아가고 있습니다.
           </p>
+
+          <HomeSocialLink />
 
           <Link to='/about' className='button'>
             자기소개
