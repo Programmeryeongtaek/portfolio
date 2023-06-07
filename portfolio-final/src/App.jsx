@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Nav from './components/nav/Nav';
 import ThemeMode from './components/themeMode/ThemeMode';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Work from './pages/work/Work';
 import Contact from './pages/contact/Contact';
 import ScrollUp from './components/scollup/ScrollUp';
+import Nav from './components/nav/Nav';
 
 function App() {
   return (
