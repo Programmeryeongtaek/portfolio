@@ -8,10 +8,11 @@
 
 .portfolio__list-item {
   color: var(--title-color);
-  font-size: var(--medium-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--weight-700);
   position: relative;
   transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+  cursor: pointer;
 }
 
 .portfolio__list-item::before {
