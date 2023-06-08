@@ -4,6 +4,9 @@ import { projects } from '../../data';
 import ProjectsItem from './ProjectsItem';
 import { AnimatePresence } from 'framer-motion';
 import List from './List';
+import { SiJavascript } from 'react-icons/si';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { FaCss3Alt } from 'react-icons/fa';
 
 const allNavList = ['All', ...new Set(projects.map((project) => project.category))];
 
@@ -52,13 +55,13 @@ const Work = () => {
           공부내역
         </h3>
         
-        <div className="blog__container grid">
+        <div className="blog__container container grid">
           <div className="blog__card">
             <div className="blog__thumb">
               <a href="">
                 <span className="blog__category">HTML</span>
               </a>
-              <a href=""><img src='' alt="" className="blog__img" /></a>
+              <a href=""><AiFillHtml5 className='blog__img' /></a>
             </div>
             <div className="blog__details">
               <h3 className="blog__title">
@@ -77,7 +80,7 @@ const Work = () => {
               <a href="">
                 <span className="blog__category">CSS</span>
               </a>
-              <a href=""><img src='' alt="" className="blog__img" /></a>
+              <a href=""><FaCss3Alt className='blog__img' /></a>
             </div>
             <div className="blog__details">
               <h3 className="blog__title">
@@ -96,7 +99,7 @@ const Work = () => {
               <a href="">
                 <span className="blog__category">JavaScript</span>
               </a>
-              <a href=""><img src='' alt="" className="blog__img" /></a>
+              <a href=""><SiJavascript className='blog__img' /></a>
             </div>
             <div className="blog__details">
               <h3 className="blog__title">
