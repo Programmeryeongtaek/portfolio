@@ -1,9 +1,6 @@
 /* Global Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap');
 
-/* Global Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap');
-
 /* CSS VARIABLES */
 :root {
   /* Colors */
@@ -67,6 +64,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body,
@@ -182,4 +183,21 @@ img {
   font-size: var(--large-font-size);
   text-align: center;
   line-height: 60px;
+}
+
+.card {
+  background-color: var(--container-color);
+  overflow: hidden;
+  text-align: left;
+  position: relative;
+}
+
+.card-one {
+  padding: 30px 35px;
+  border-radius: 18px;
+}
+
+.card-two {
+  padding: 20px 30px;
+  border-radius: 20px;
 }
