@@ -7,7 +7,7 @@ const Card = (props) => {
     <div className="char__item">
       <div className="char__header" onClick={() => setShowInfo(!showInfo)}>
         <h3 className="char__title">{props.title}</h3>
-        <span className="icon">{showInfo ? '-' : '+'}</span>
+        <span className="char__icon">{showInfo ? '-' : '+'}</span>
       </div>
 
       <div className={`${showInfo ? 'show-content' : ''} char__content`}>
