@@ -1,12 +1,11 @@
 import React from 'react';
 import './about.css';
 import Info from './Info';
-import Hobby from './Hobby';
 import { FaDownload } from 'react-icons/fa';
-import Attitudes from './Attitudes';
-import { resume } from '../../data';
+import { attitude, hobby, resume } from '../../data';
 import ResumeItem from './ResumeItem';
 import Skills from './Skills';
+import Card from './Card';
 
 const About = () => {
   return (
@@ -74,11 +73,44 @@ const About = () => {
           취미 & 태도
         </h3>
 
-        <div className="hobby__container grid">
-          <Hobby />
-        </div>
-        <div className="attitudes__container grid">
-          <Attitudes />
+        <div className="char__container grid">
+          <div className="char__group">
+            <h3 className="char__heading">취미</h3>
+
+            <div className="char__items">
+              {hobby.map((val, id) => {
+                if (val.category === 'hobby') {
+                  return (
+                    <Card 
+                      key={id}
+                      title={val.title}
+                      subtitle={val.subtitle}
+                      description={val.description}
+                    />
+                  );
+                }
+              })}
+            </div>
+          </div>
+
+          <div className="char__group">
+            <h3 className="char__heading">태도</h3>
+
+            <div className="char__items">
+              {attitude.map((val, id) => {
+                if (val.category === 'attitude') {
+                  return (
+                    <Card 
+                      key={id}
+                      title={val.title}
+                      subtitle={val.subtitle}
+                      description={val.description}
+                    />
+                  );
+                }
+              })}
+            </div>
+          </div>
         </div>
       </section>
 
