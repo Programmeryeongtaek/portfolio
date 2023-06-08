@@ -510,3 +510,53 @@ export const post = [
     img: <SiJavascript />,
   },
 ];
+
+// hobby
+export const hobby = [
+  {
+    id: 1,
+    title: '독서',
+    subtitle: '교양인문학, 일반철학, 리더십, 경영학, 심리학, 뇌과학, 신학, 자기계발',
+    description : '',
+    category : 'hobby'
+  },
+  {
+    id: 2,
+    title: '글쓰기 & 모임운영',
+    subtitle: '생각정리, 강의 코칭, 독서모임 운영, 소모임 진행, 청년부 리더',
+    description: '',
+    category: 'hobby',
+  },
+  {
+    id: 3,
+    title: '개발',
+    subtitle: '개인 블로그, 문장 수집 웹, 포트폴리오',
+    description: '',
+    category: 'hobby',
+  },
+];
+
+// attitude
+export const attitude = [
+  {
+    id: 1,
+    title: '학습',
+    subtitle : '일신우일신',
+    description: '',
+    category: 'attitude',
+  },
+  {
+    id: 2,
+    title: '질문',
+    subtitle: '무지의 지',
+    description: '',
+    category: 'attitude',
+  },
+  {
+    id: 3,
+    title: '성장을 넘어 성숙',
+    subtitle: '다양성의 조화',
+    description: '',
+    category: 'attitude',
+  },
+];
