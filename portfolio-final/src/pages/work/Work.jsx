@@ -51,6 +51,65 @@ const Work = () => {
         <h3 className="section__subtitle subtitle__center">
           공부내역
         </h3>
+        
+        <div className="blog__container grid">
+          <div className="blog__card">
+            <div className="blog__thumb">
+              <a href="">
+                <span className="blog__category">HTML</span>
+              </a>
+              <a href=""><img src='' alt="" className="blog__img" /></a>
+            </div>
+            <div className="blog__details">
+              <h3 className="blog__title">
+                최신 글 제목
+              </h3>
+              <div className="blog__meta">
+                <span>최신 작성날짜</span>
+                <span className="blog__dot">.</span>
+                <span>Yeong</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="blog__card">
+            <div className="blog__thumb">
+              <a href="">
+                <span className="blog__category">CSS</span>
+              </a>
+              <a href=""><img src='' alt="" className="blog__img" /></a>
+            </div>
+            <div className="blog__details">
+              <h3 className="blog__title">
+                최신 글 제목
+              </h3>
+              <div className="blog__meta">
+                <span>최신 작성날짜</span>
+                <span className="blog__dot">.</span>
+                <span>Yeong</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="blog__card">
+            <div className="blog__thumb">
+              <a href="">
+                <span className="blog__category">JavaScript</span>
+              </a>
+              <a href=""><img src='' alt="" className="blog__img" /></a>
+            </div>
+            <div className="blog__details">
+              <h3 className="blog__title">
+                최신 글 제목
+              </h3>
+              <div className="blog__meta">
+                <span>최신 작성날짜</span>
+                <span className="blog__dot">.</span>
+                <span>Yeong</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
