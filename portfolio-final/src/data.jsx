@@ -1,12 +1,14 @@
 import {
   FaBriefcase,
   FaCode,
+  FaCss3Alt,
   FaGraduationCap,
 } from 'react-icons/fa';
-import { AiOutlineHome } from 'react-icons/ai';
+import { AiFillHtml5, AiOutlineHome } from 'react-icons/ai';
 import { BsFillPersonLinesFill, BsTools } from 'react-icons/bs';
 import { HiOutlineDocumentReport } from 'react-icons/hi';
 import { FiExternalLink, FiFileText, FiSend } from 'react-icons/fi';
+import { SiJavascript } from 'react-icons/si';
 
 import Work1 from './assets/Clone Website1.png';
 import Work2 from './assets/Clone Website1.png';
@@ -487,5 +489,24 @@ export const projects = [
     ],
     description:
       '',
+  },
+];
+
+// Blog
+export const post = [
+  {
+    id: 1,
+    category: 'HTML',
+    img: <AiFillHtml5 />,
+  },
+  {
+    id: 2,
+    category: 'CSS',
+    img: <FaCss3Alt />,
+  },
+  {
+    id: 3,
+    category: 'JavaScript',
+    img: <SiJavascript />,
   },
 ];
