@@ -103,6 +103,10 @@
   cursor: pointer;
 }
 
+.contact__btn:hover {
+  color: var(--text-white);
+}
+
 .contact__btn::before {
   content: '';
   position: absolute;

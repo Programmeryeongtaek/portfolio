@@ -114,6 +114,12 @@ img {
 
 
 /* REUSABLE CSS */
+.separator {
+  border-top: 1px solid var(--border-color);
+  max-width: 40%;
+  margin: 120px auto 100px;
+}
+
 .container {
   max-width: 1140px;
   margin-inline: auto;
