@@ -29,6 +29,25 @@ import Theme8 from './assets/orange.png';
 import Theme9 from './assets/green.png';
 import Theme10 from './assets/yellow.png';
 
+import HTML1 from './assets/HTML1.jpg';
+import CSS1 from './assets/CSS1.jpg';
+import CSS2 from './assets/CSS2.jpg';
+import CSS3 from './assets/CSS3.jpg';
+import CSS4 from './assets/CSS4.jpg';
+import JS1 from './assets/JS1.jpg';
+import JS2 from './assets/JS2.jpg';
+import JS3 from './assets/JS3.jpg';
+import JS4 from './assets/JS4.jpg';
+import JS5 from './assets/JS5.jpg';
+import JS6 from './assets/JS6.jpg';
+import TS1 from './assets/TS1.jpg';
+import TS2 from './assets/TS2.jpg';
+import TS3 from './assets/TS3.jpg';
+import RJS1 from './assets/React1.jpg';
+import RJS2 from './assets/React2.jpg';
+import RJS3 from './assets/React3.jpg';
+import RJS4 from './assets/React4.jpg';
+
 export const links = [
   {
     id: 1,
@@ -186,33 +205,27 @@ export const skills = [
   {
     id: 1,
     title: 'HTML',
-    percentage: '50',
-    content :'asdasd',
+    percentage: '95',
   },
   {
     id: 2,
     title: 'CSS',
-    percentage: '50',
-    content :'asdasd',
+    percentage: '85',
   },
   {
     id: 3,
     title: 'JavaScript',
-    percentage: '50',
-    content :'asdasd',
+    percentage: '80',
   },
   {
     id: 4,
     title: 'TypeScript',
-    percentage: '50',
-    standard: '',
-    content :'asdasd',
+    percentage: '60',
   },
   {
     id: 5,
     title: 'React',
-    percentage: '50',
-    content :'asdasd',
+    percentage: '80',
   },
 ];
 
@@ -558,5 +571,111 @@ export const attitude = [
     subtitle: '다양성의 조화',
     description: '',
     category: 'attitude',
+  },
+];
+
+// skills
+export const HTML = [
+  {
+    id: 1,
+    image: HTML1,
+    title: 'HTML+CSS+자바스크립트', 
+  },
+];
+
+export const CSS = [
+  {
+    id: 1,
+    image: CSS1,
+    title: 'HTML+CSS+자바스크립트', 
+  },
+  {
+    id: 2,
+    image: CSS2,
+    title: '반응형 웹 페이지 만들기', 
+  },
+  {
+    id: 3,
+    image: CSS3,
+    title: '인터랙티브 웹 페이지 만들기', 
+  },
+  {
+    id: 4,
+    image: CSS4,
+    title: '리액트 모던 웹 개발',
+  },
+];
+
+export const JS = [
+  {
+    id: 1,
+    image: JS1,
+    title: 'HTML+CSS+자바스크립트', 
+  },
+  {
+    id: 2,
+    image: JS2,
+    title: '자바스크립트 입문', 
+  },
+  {
+    id: 3,
+    image: JS3,
+    title: '초보자를 위한 JavaScript 200제', 
+  },
+  {
+    id: 4,
+    image: JS4,
+    title: '모던 자바스크립트',
+  },
+  {
+    id: 5,
+    image: JS5,
+    title: '자바스크립트 코딩의 기술', 
+  },
+  {
+    id: 6,
+    image: JS6,
+    title: '코어 자바스크립트', 
+  },
+];
+
+export const TS = [
+  {
+    id: 1,
+    image: TS1,
+    title: '러닝 타입스크립트',
+  },
+  {
+    id: 2,
+    image: TS2,
+    title: '타입스크립트 프로그래밍',
+  },
+  {
+    id: 3,
+    image: TS3,
+    title: '리액트 모던 웹 개발',
+  },
+];
+
+export const RJS = [
+  {
+    id: 1,
+    image: RJS1,
+    title: '리액트를 다루는 기술',
+  },
+  {
+    id: 2,
+    image: RJS2,
+    title: '클론코딩 영화평점 웹 서비스',
+  },
+  {
+    id: 3,
+    image: RJS3,
+    title: '처음 만난 리액트',
+  },
+  {
+    id: 4,
+    image: RJS4,
+    title: '리액트 모던 웹 개발',
   },
 ];
