@@ -2,10 +2,16 @@ import React from 'react';
 import './about.css';
 import Info from './Info';
 import { FaDownload } from 'react-icons/fa';
-import { attitude, hobby, resume } from '../../data';
+import { attitude, hobby, picture, resume } from '../../data';
 import ResumeItem from './ResumeItem';
 import Skills from './Skills';
 import Card from './Card';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+import { Pagination } from 'swiper';
 
 const About = () => {
   return (
@@ -22,6 +28,24 @@ const About = () => {
         </h3>
 
         <div className="about__container grid">
+          <Swiper 
+            className="about__me-pictures"
+            modules={[ Pagination ]}
+            spaceBetween={24}
+            slidesPerView={1}
+            loop={true}
+            grabCursor={true}
+            pagination={{ clickable: true }}
+          >
+            {picture.map(({ id, image, title }) => {
+              return (
+                <SwiperSlide className='about__me-picture' key={id}>
+                  <img src={image} alt="" className="about__me-photo" />
+                  <h3 className="about__me-introduce">{title}</h3>
+                </SwiperSlide>
+              )
+            })}
+          </Swiper>
           <div className="about__info">
             <ul className="info__list grid">
               <Info />
@@ -33,9 +57,6 @@ const About = () => {
                 <FaDownload />
               </span>
             </a>
-          </div>
-          <div className="about__picture">
-            <img src="" alt="" className="about__profile" />
           </div>
         </div>
       </section>
