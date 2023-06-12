@@ -91,6 +91,12 @@
   transform: scale(1.04);
 }
 
+.portfolio__description {
+  margin: 1rem 0;
+  font-size: var(--large-font-size);
+  font-weight: var(--weight-700);
+}
+
 .portfolio__category {
   color: var(--first-color);
   font-size: var(--small-font-size);
@@ -181,6 +187,11 @@
   overflow: hidden;
 }
 
+.blog__card:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+}
+
 .blog__thumb {
   position: relative;
   overflow: hidden;
@@ -257,6 +268,7 @@
   cursor: pointer;
   transform: scale(1.1);
   color: var(--first-color);
+  transition: 0.3s ease-in;
 }
 
 .skills__title {
