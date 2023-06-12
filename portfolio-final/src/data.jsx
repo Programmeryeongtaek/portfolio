@@ -3,12 +3,20 @@ import {
   FaCode,
   FaCss3Alt,
   FaGraduationCap,
+  FaHtml5,
 } from 'react-icons/fa';
 import { AiFillHtml5, AiOutlineHome } from 'react-icons/ai';
 import { BsFillPersonLinesFill, BsTools } from 'react-icons/bs';
 import { HiOutlineDocumentReport } from 'react-icons/hi';
 import { FiExternalLink, FiFileText, FiSend } from 'react-icons/fi';
 import { SiJavascript } from 'react-icons/si';
+
+import Profile from './assets/소개.jpg';
+import Reading from './assets/독서.jpg';
+import Metting from './assets/모임.jpg';
+import Question from './assets/질문.jpg';
+import Learn from './assets/학습.jpg';
+import Developer from './assets/개발자.jpg';
 
 import Work1 from './assets/Clone Website1.png';
 import Work2 from './assets/Clone Website1.png';
@@ -47,6 +55,12 @@ import RJS1 from './assets/React1.jpg';
 import RJS2 from './assets/React2.jpg';
 import RJS3 from './assets/React3.jpg';
 import RJS4 from './assets/React4.jpg';
+
+import Logo_html from './assets/HTML-logo.png';
+import Logo_css from './assets/CSS-logo.png';
+import Logo_js from './assets/JavaScript-logo.png';
+import Logo_ts from './assets/TypeScript-logo.png';
+import Logo_react from './assets/React-logo.png';
 
 export const links = [
   {
@@ -109,12 +123,46 @@ export const personalInfo = [
   {
     id: 7,
     title: '키워드 : ',
-    description: '학습, 열정, 질문, 철학',
+    description: '학습, 열정, 질문, 철학, 독서, 리더십, 콘텐츠 제작',
   },
   {
     id: 8,
-    title: '키워드 : ',
-    description: '독서, 자전거라이딩, 콘텐츠 제작',
+    title: '개발 : ',
+    description: '프론트엔드',
+  },
+];
+
+// about__me-pichture
+export const picture = [
+  {
+    id: 1,
+    image: Profile,
+    title: '소개',
+  },
+  {
+    id: 2,
+    image: Reading,
+    title: '독서',
+  },
+  {
+    id: 3,
+    image: Metting,
+    title: '모임 & 리더십',
+  },
+  {
+    id: 4,
+    image: Question,
+    title: '질문',
+  },
+  {
+    id: 5,
+    image: Learn,
+    title: '학습',
+  },
+  {
+    id: 6,
+    image: Developer,
+    title: '프론트엔드 개발자',
   },
 ];
 
@@ -123,81 +171,81 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '기간',
-    title: '제목',
-    desc: '활동설명',
+    year: '2015 - 2017',
+    title: '사무보조 및 야간 경비',
+    desc: '세광교회 사무보조 및 야간 경비',
   },
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '기간',
-    title: '제목',
-    desc: '활동설명',
+    year: '2017 - 2018',
+    title: '빅데이터 작업',
+    desc: '솔트룩스, 단기알바',
   },
   {
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '기간',
-    title: '제목',
-    desc: '활동설명',
+    year: '2017 - 2022',
+    title: '자전거 라이딩',
+    desc: '자전거 라이딩 그랜드 슬램 달성 및 여행 기획',
   },
   {
     id: 4,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '기간',
-    title: '제목',
-    desc: '활동설명',
+    year: '2015 - present',
+    title: '교회내 리더',
+    desc: '행정 & 교육 디렉터 및 책임',
   },
   {
     id: 5,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '기간',
-    title: '제목',
-    desc: '활동설명',
+    year: '2021.10 - 2022.10',
+    title: '청년 전도사',
+    desc: '청빙 제안에 따른 활동 / 서향교회(현 보성교회)',
   },
   {
     id: 6,
     category: 'learn',
     icon: <FaGraduationCap />,
-    year: '기간',
-    title: '제목',
-    desc: '활동설명',
+    year: '2008',
+    title: '고등학교 중퇴',
+    desc: '고등학교 1학년 중퇴',
   },
   {
     id: 7,
     category: 'learn',
     icon: <FaGraduationCap />,
-    year: '기간',
-    title: '제목',
-    desc: '활동설명',
+    year: '2009.04',
+    title: '검정고시',
+    desc: '고졸검정고시 합격',
   },
   {
     id: 8,
     category: 'learn',
     icon: <FaGraduationCap />,
-    year: '기간',
-    title: '제목',
-    desc: '활동설명',
+    year: '2012 - present',
+    title: '독서 모임 참여 및 운영',
+    desc: '독서모임 T-100 4년 운영',
   },
   {
     id: 9,
     category: 'learn',
     icon: <FaGraduationCap />,
-    year: '기간',
-    title: '제목',
-    desc: '활동설명',
+    year: '2017 - presnet',
+    title: '강의 모임 기획 및 진행',
+    desc: '청강합시다 2회(17-18), 단무지(22-23)',
   },
   {
     id: 10,
     category: 'learn',
     icon: <FaGraduationCap />,
-    year: '기간',
-    title: '제목',
-    desc: '활동설명',
+    year: '2022.10 - present',
+    title: '개발자 공부',
+    desc: '프론트엔드 개발자 / 독학사 CS 공부',
   },
 ];
 
@@ -205,27 +253,27 @@ export const skills = [
   {
     id: 1,
     title: 'HTML',
-    percentage: '95',
+    img: Logo_html,
   },
   {
     id: 2,
     title: 'CSS',
-    percentage: '85',
+    img: Logo_css,
   },
   {
     id: 3,
     title: 'JavaScript',
-    percentage: '80',
+    img: Logo_js,
   },
   {
     id: 4,
     title: 'TypeScript',
-    percentage: '60',
+    img: Logo_ts,
   },
   {
     id: 5,
     title: 'React',
-    percentage: '80',
+    img: Logo_react,
   },
 ];
 
@@ -510,7 +558,7 @@ export const post = [
   {
     id: 1,
     category: 'HTML',
-    img: <AiFillHtml5 />,
+    img: <FaHtml5 />,
   },
   {
     id: 2,
