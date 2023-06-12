@@ -64,7 +64,7 @@
 }
 
 .portfolio__title {
-  color: var(--text-color);
+  color: var(--text-white);
   font-size: var(--h3-font-size);
   font-weight: var(--weight-500);
   transform: translateY(-20px);
@@ -206,7 +206,7 @@
   position: absolute;
   top: 0;
   left: 1.25rem;
-  font-size: var(--medium-font-size);
+  font-size: var(--large-font-size);
   display: inline-block;
   padding: 0.125rem 0.5rem;
   transition: 0.3s;
@@ -232,4 +232,92 @@
 .blog__dot {
   font-weight: var(--weight-600);
   color: var(--first-color);
+}
+
+/* ===== Skills ===== */
+.skills__container {
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px 0px rgb(29 27 56 / 20%);
+  padding: 20px;
+}
+
+.skills__logo {
+  width: 140px;
+  height: 140px;
+  object-fit: c;
+}
+
+.skills__ability {
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  row-gap: 48px;
+}
+
+.skills__ability-box:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: var(--first-color);
+}
+
+.skills__title {
+  font-size: var(--large-font-size);
+  font-weight: var(--weight-600);
+  display: flex;
+  margin-top: 10px;
+}
+
+.skills__description {
+  border-top: 1px solid var(--border-color);
+  color: var(--text-color);
+  font-size: var(--normal-font-size);
+  padding: 15px 5px 5px;
+}
+
+.skills__content {
+  display: none;
+}
+
+.skills__content-active {
+  display: flex;
+  border-top: 1px solid var(--border-color);
+  height: 500px;
+  overflow: hidden
+}
+
+.skills__table {
+  display: flex;
+  padding: 20px;
+  width: 20%;
+  border-right: 1px dotted var(--border-color);
+}
+
+.skills__know-title {
+  width: 100%;
+  color: var(--text-color);
+  font-size: var(--large-font-size);
+  line-height: 35px;
+  font-weight:  var(--weight-600);
+  overflow-y: scroll;
+}
+
+.skills__study {
+  width: 35%;
+  border: 1px solid var(--border-color);
+}
+
+.skills__card {
+  padding: 1.5rem 2.5rem 4.5rem;
+  background-color: var(--container-color);
+}
+
+.skills__img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.skills__book {
+  padding-bottom: 10px;
+  font-size: var(--large-font-size);
+  text-align: center;
 }
