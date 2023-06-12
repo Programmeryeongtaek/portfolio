@@ -18,13 +18,26 @@ import Question from './assets/질문.jpg';
 import Learn from './assets/학습.jpg';
 import Developer from './assets/개발자.jpg';
 
-import Work1 from './assets/Clone Website1.png';
-import Work2 from './assets/Clone Website1.png';
-import Work3 from './assets/Clone Website1.png';
-import Work4 from './assets/Clone Website1.png';
-import Work5 from './assets/Clone Website1.png';
-import Work6 from './assets/Clone Website1.png';
-import Work7 from './assets/Clone Website1.png';
+import Work_react1 from './assets/project/react/Clone Website1.png';
+import Work_react2 from './assets/project/react/Clone Website2.png';
+import Work_react3 from './assets/project/react/Clone Website3.png';
+import Work_react4 from './assets/project/react/Clone Website4.png';
+import Work_react5 from './assets/project/react/Clone Website5.png';
+import Work_react6 from './assets/project/react/Clone Website6.png';
+import Work_react7 from './assets/project/react/NotesApp.png';
+import Work_react8 from './assets/project/react/SearchTools.png';
+import Work_react9 from './assets/project/react/TicTacToeApp.png';
+import Work_react10 from './assets/project/react/QuizApp.png';
+import Work_react11 from './assets/project/react/WoodleApp.png';
+import Work_react12 from './assets/project/react/CryptoPriceApp.png';
+
+import Work_personal1 from './assets/project/personal/portfolio.png';
+
+import Work_JS1 from './assets/project/javascript/DragTools.png';
+import Work_JS2 from './assets/project/javascript/TypingGameApp.png';
+import Work_JS3 from './assets/project/javascript/TetrisApp.png';
+import Work_JS4 from './assets/project/javascript/MineSearchApp.png';
+import Work_JS5 from './assets/project/javascript/WhackGospherApp.png';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -62,6 +75,7 @@ import Logo_js from './assets/JavaScript-logo.png';
 import Logo_ts from './assets/TypeScript-logo.png';
 import Logo_react from './assets/React-logo.png';
 
+// social links
 export const links = [
   {
     id: 1,
@@ -89,6 +103,7 @@ export const links = [
   },
 ];
 
+// poersonal info
 export const personalInfo = [
   {
     id: 1,
@@ -166,6 +181,7 @@ export const picture = [
   },
 ];
 
+// 활동 & 경험
 export const resume = [
   {
     id: 1,
@@ -343,8 +359,8 @@ export const themeMode = [
 export const projects = [
   {
     id: 1,
-    img: Work1,
-    category: 'Vanila JS',
+    img: Work_react1,
+    category: 'React',
     title: 'Portfolio Website',
     details: [
       {
@@ -369,12 +385,12 @@ export const projects = [
       },
     ],
     description:
-      'asdasdasdsda',
+      '클론코딩 - 포트폴리오 사이트',
   },
   {
     id: 2,
-    img: Work2,
-    category: 'Personal',
+    img: Work_react2,
+    category: 'React',
     title: 'Portfolio Website',
     details: [
       {
@@ -399,12 +415,12 @@ export const projects = [
       },
     ],
     description:
-      '',
+      '클론코딩 - 포트폴리오 사이트',
   },
   {
     id: 3,
-    img: Work3,
-    category: 'Personal',
+    img: Work_react3,
+    category: 'React',
     title: 'Portfolio Website',
     details: [
       {
@@ -429,11 +445,281 @@ export const projects = [
       },
     ],
     description:
-      '',
+      '클론코딩 - 포트폴리오 사이트',
   },
   {
     id: 4,
-    img: Work4,
+    img: Work_react4,
+    category: 'React',
+    title: 'Portfolio Website',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
+    description:
+      '클론코딩 - 포트폴리오 사이트',
+  },
+  {
+    id: 5,
+    img: Work_react5,
+    category: 'React',
+    title: 'Portfolio Website',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
+    description:
+      '클론코딩 - 포트폴리오 사이트',
+  },
+  {
+    id: 6,
+    img: Work_react6,
+    category: 'React',
+    title: 'Shopping Cart Ecommerce',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
+    description:
+      '클론코딩 - 쇼핑몰 계산 사이트',
+  },
+  {
+    id: 7,
+    img: Work_react7,
+    category: 'React',
+    title: 'Notes App',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
+    description:
+      '클론코딩 - 메모 추가 앱',
+  },
+  {
+    id: 8,
+    img: Work_react8,
+    category: 'React',
+    title: 'Search Bar',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
+    description:
+      '클론코딩 - 검색 구현 앱',
+  },
+  {
+    id: 9,
+    img: Work_react9,
+    category: 'React',
+    title: 'TicTacToe',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
+    description:
+      '클론코딩 - 틱택토 게임',
+  },
+  {
+    id: 10,
+    img: Work_react10,
+    category: 'React',
+    title: 'Quiz App',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
+    description:
+      '클론코딩 - 퀴즈 앱',
+  },
+  {
+    id: 11,
+    img: Work_react11,
+    category: 'React',
+    title: 'Woodle App',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
+    description:
+      '클론코딩 - 단어 맞추기 게임',
+  },
+  {
+    id: 12,
+    img: Work_react12,
+    category: 'React',
+    title: 'Crypto Price App',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
+    description:
+      '클론코딩 - 코인 가격 확인앱',
+  },
+  {
+    id: 13,
+    img: Work_personal1,
     category: 'Personal',
     title: 'Portfolio Website',
     details: [
@@ -459,43 +745,13 @@ export const projects = [
       },
     ],
     description:
-      '',
+      '개인 포트폴리오 웹사이트',
   },
   {
-    id: 5,
-    img: Work5,
-    category: 'React',
-    title: 'Portfolio Website',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '',
-  },
-  {
-    id: 6,
-    img: Work6,
+    id: 14,
+    img: Work_JS1,
     category: 'Vanila JS',
-    title: 'Portfolio Website',
+    title: 'DragTools',
     details: [
       {
         icon: <FiFileText />,
@@ -519,13 +775,13 @@ export const projects = [
       },
     ],
     description:
-      '',
+      '클론코딩 - Drag 기능',
   },
   {
-    id: 7,
-    img: Work7,
-    category: 'React',
-    title: 'Portfolio Website',
+    id: 15,
+    img: Work_JS2,
+    category: 'Vanila JS',
+    title: 'Typing Game',
     details: [
       {
         icon: <FiFileText />,
@@ -549,7 +805,97 @@ export const projects = [
       },
     ],
     description:
-      '',
+      '클론코딩 - 타이핑 게임',
+  },
+  {
+    id: 16,
+    img: Work_JS3,
+    category: 'Vanila JS',
+    title: 'Tetris Game',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
+    description:
+      '클론코딩 - 테트리스 게임',
+  },
+  {
+    id: 17,
+    img: Work_JS4,
+    category: 'Vanila JS',
+    title: 'Mine Search Game',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
+    description:
+      '클론코딩 - 지뢰찾기 게임',
+  },  
+  {
+    id: 18,
+    img: Work_JS5,
+    category: 'Vanila JS',
+    title: 'Whack Gosper Game',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone Coding',
+      },
+      {
+        icon: <BsTools />,
+        title: 'Tools : ',
+        desc: 'React',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML, CSS, JavaScript'
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Learned : ',
+        desc: '',
+      },
+    ],
+    description:
+      '클론코딩 - 두더지잡기 게임',
   },
 ];
 
@@ -577,22 +923,23 @@ export const hobby = [
   {
     id: 1,
     title: '독서',
-    subtitle: '교양인문학, 일반철학, 리더십, 경영학, 심리학, 뇌과학, 신학, 자기계발',
-    description : '',
+    subtitle: '교양인문학 / 일반철학 / 리더십 / 경영학 / 심리학 / 뇌과학 / 신학 / 자기계발',
+    description : 
+      '흥미와 관심사를 따라 넓은 독서를 하면서 통합적인 사고를 맛볼 수 있었습니다. 지식이 쌓이는 것을 체감하면서 자신감이 차오르고 내면이 단단해지는 삶을 살아가고 있습니다.',
     category : 'hobby'
   },
   {
     id: 2,
     title: '글쓰기 & 모임운영',
     subtitle: '생각정리, 강의 코칭, 독서모임 운영, 소모임 진행, 청년부 리더',
-    description: '',
+    description: '많은 독서를 통해 얻은 자신감과 지식을 공유하는 시간을 만들고 있습니다. 계속해서 독서모임을 만들고 강의를 진행해왔습니다.',
     category: 'hobby',
   },
   {
     id: 3,
     title: '개발',
     subtitle: '개인 블로그, 문장 수집 웹, 포트폴리오',
-    description: '',
+    description: '개인적으로 만들고 싶은 작업물들이 떠오르고 있습니다. 천천히 조급하려고 합니다.',
     category: 'hobby',
   },
 ];
@@ -603,21 +950,21 @@ export const attitude = [
     id: 1,
     title: '학습',
     subtitle : '일신우일신',
-    description: '',
+    description: '학습한다는 것은 매일 성장하겠다는 의지입니다. 호기심을 따라, 필요에 따라 자발적으로 하는 수고를 의미합니다. 해야 하는 수동성이 아니라 어떤 목적에서 뛰어나지기 위한 능동적인 공부입니다.',
     category: 'attitude',
   },
   {
     id: 2,
     title: '질문',
     subtitle: '무지의 지',
-    description: '',
+    description: '어떤 질문을 하느냐에 따라 얻는 답은 달라집니다. "왜?"라는 의문과 "어떻게 하면 더 좋을까?"라는 의도적인 질문을 통해 모름을 채워나가고 있습니다. 또한 질문을 통해 내가 모르는 것을 인지하고, 빠르게 성장하기 위한 도구로 삼고 있습니다.',
     category: 'attitude',
   },
   {
     id: 3,
     title: '성장을 넘어 성숙',
     subtitle: '다양성의 조화',
-    description: '',
+    description: '다름 속에서 같음을 발견하고, 함께 성장을 얘기하며 살아가고 있습니다. 다양함은 다루기 어렵습니다. 인간관계가 어려운 이유가 그것이라 생각합니다. 하지만 각 사람마다 갖고 있는 강점과 재능을 발견한다면, 더 탁월하고 자연스러워진다는 사실을 알고 있습니다.',
     category: 'attitude',
   },
 ];
