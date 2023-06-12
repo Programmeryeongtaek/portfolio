@@ -1,22 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Card = (props) => {
-  const [showInfo, setShowInfo] = useState(false);
+const Card = ({ title, subtitle, description }) => {
 
   return (
-    <div className="char__item">
-      <div className="char__header" onClick={() => setShowInfo(!showInfo)}>
-        <h3 className="char__title">{props.title}</h3>
-        <span className="char__icon">{showInfo ? '-' : '+'}</span>
+    <div className="char__data">
+      <div>
+        <h3 className="char__title">{title}</h3>
+        <span className="char__subtitle">{subtitle}</span>
       </div>
-
-      <div className={`${showInfo ? 'show-content' : ''} char__content`}>
-        <div className="char__data-title">
-          <h3 className="char__subtitle">{props.subtitle}</h3>
-        </div>
-
-        <p className="char__description">{props.description}</p>
-      </div>
+      <span className="char__description">{description}</span>
     </div>
   );
 };
