@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper';
 
 const Skills = () => {
-  const [toggleState, setToggleState] = useState(0);
+  const [toggleState, setToggleState] = useState(4);
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -19,7 +19,7 @@ const Skills = () => {
   return (
     <>
       <div className='skills__ability grid'>
-        {skills.map(({ img, title, percentage }, index) => {
+        {skills.map(({ img, title }, index) => {
           return (
             <div 
               key={index} 
@@ -33,10 +33,6 @@ const Skills = () => {
                 {title}
               </span>
             </div>
-
-// FaReact
-//FaCss3Alt
-//FaHtml5
           )
         })}
       </div>

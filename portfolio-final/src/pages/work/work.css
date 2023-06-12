@@ -99,7 +99,7 @@
 
 .portfolio__category {
   color: var(--first-color);
-  font-size: var(--small-font-size);
+  font-size: var(--large-font-size);
   font-weight: var(--weight-700);
   margin-bottom: 5px;
   display: flex;
@@ -314,12 +314,11 @@
 
 .skills__study {
   width: 35%;
-  border: 1px solid var(--border-color);
 }
 
 .skills__card {
   padding: 1.5rem 2.5rem 4.5rem;
-  background-color: var(--container-color);
+  background-color: var(-text-color);
 }
 
 .skills__img {

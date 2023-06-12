@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Close from '../../assets/close.svg';
 import { motion } from 'framer-motion';
+import { projects } from '../../data';
 
 const ProjectsItem = ({ projectItems }) => {
   const [modal, setModal] = useState(false);
@@ -21,9 +22,8 @@ const ProjectsItem = ({ projectItems }) => {
             exit={{ opacity: 0.8, scale: 0.6 }}
             transition={{ duration: 0.3 }}
             className='portfolio__items card card-two'
-            key={id}
           >
-            <div className="portfolio__item" onClick={toggleModal} >
+            <div className="portfolio__item" onClick={toggleModal} key={id}>
               <div className="portfolio__hover">
                 <h3 className="portfolio__title">{title}</h3>
               </div>
@@ -44,7 +44,7 @@ const ProjectsItem = ({ projectItems }) => {
                   <ul className="modal__list grid">
                     {details.map(({ icon, title, desc }, index) => {
                       return (
-                        <li className="modal__item">
+                        <li className="modal__item" key={index}>
                           <span className="item__icon">{icon}</span>
 
                           <div>
