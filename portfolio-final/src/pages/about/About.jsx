@@ -1,10 +1,8 @@
 import React from 'react';
 import './about.css';
 import Info from './Info';
-import { FaDownload } from 'react-icons/fa';
 import { attitude, hobby, picture, resume } from '../../data';
 import ResumeItem from './ResumeItem';
-import Skills from './Skills';
 import Card from './Card';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -17,18 +15,18 @@ const About = () => {
   return (
     <main className="section container">
       <section className="about">
-        <h2 className="section__title">
+        <h1 className="section__title">
           About <span>Me</span>
-        </h2>
+        </h1>
 
         <div className="separator"></div>
 
-        <h3 className="section__subtitle subtitle__center">
+        <div className="section__subtitle subtitle__center">
           개인정보
-        </h3>
+        </div>
 
         <div className="about__container grid">
-          <Swiper 
+        <Swiper 
             className="about__me-pictures"
             modules={[ Pagination ]}
             spaceBetween={24}
@@ -50,13 +48,6 @@ const About = () => {
             <ul className="info__list grid">
               <Info />
             </ul>
-
-            <a href='' className="button">
-              자기소개 다운로드
-              <span className="button__icon">
-                <FaDownload />
-              </span>
-            </a>
           </div>
         </div>
       </section>
@@ -64,9 +55,9 @@ const About = () => {
       <div className="separator"></div>
 
       <section className="resume">
-        <h3 className="section__subtitle subtitle__center">
+        <div className="section__subtitle subtitle__center">
           경험 & 학습
-        </h3>
+        </div>
 
         <div className="resume__container grid">
           <div className="resume__data">
@@ -90,9 +81,9 @@ const About = () => {
       <div className="separator"></div>
 
       <section className="char">
-        <h3 className="section__subtitle subtitle__center">
+        <div className="section__subtitle subtitle__center">
           취미 & 태도
-        </h3>
+        </div>
 
         <div className="char__container grid">
           <div className="char__group">
@@ -132,18 +123,6 @@ const About = () => {
               })}
             </div>
           </div>
-        </div>
-      </section>
-
-      <div className="separator"></div>
-
-      <section className="skills">
-        <h3 className="section__subtitle subtitle__center">
-          스킬 역량
-        </h3>
-
-        <div className="skills__container grid">
-          <Skills />
         </div>
       </section>
     </main>
