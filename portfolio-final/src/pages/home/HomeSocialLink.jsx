@@ -5,15 +5,15 @@ import { FaBlogger, FaGithub } from 'react-icons/fa';
 const HomeSocialLink = () => {
   return (
     <div className="home__socials">
-      <a href="" className="home__social-link" target='_blank'>
+      <a href="https://www.instagram.com/5_yeongtaek/" className="home__social-link" target='_blank'>
         <BsInstagram />
       </a>
 
-      <a href="" className="home__social-link" target='_blank'>
+      <a href="https://young-taek.tistory.com/" className="home__social-link" target='_blank'>
         <FaBlogger />
       </a>
 
-      <a href="" className="home__social-link" target='_blank'>
+      <a href="https://github.com/Programmeryeongtaek?tab=repositories" className="home__social-link" target='_blank'>
         <FaGithub />
       </a>
     </div>
