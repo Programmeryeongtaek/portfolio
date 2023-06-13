@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Close from '../../assets/close.svg';
 import { motion } from 'framer-motion';
-import { projects } from '../../data';
 
 const ProjectsItem = ({ projectItems }) => {
   const [modal, setModal] = useState(false);
@@ -33,7 +32,6 @@ const ProjectsItem = ({ projectItems }) => {
               </div>
               <p className="portfolio__description">{description}</p>
             
-
             {modal && (
               <div className="portfolio__modal">
                 <div className="portfolio__modal-content">
@@ -44,7 +42,7 @@ const ProjectsItem = ({ projectItems }) => {
                   <ul className="modal__list grid">
                     {details.map(({ icon, title, desc }, index) => {
                       return (
-                        <li className="modal__item" key={index}>
+                        <li className="modal__item" key={index} >
                           <span className="item__icon">{icon}</span>
 
                           <div>
@@ -55,11 +53,9 @@ const ProjectsItem = ({ projectItems }) => {
                       )
                     })}
                   </ul>
-
-                  <img src={img} alt="" className="modal__img" />
+                  <img src={img} alt="" className="modal__img"/>
                 </div>
               </div>
-              
             )}
             </div>
           </motion.div>

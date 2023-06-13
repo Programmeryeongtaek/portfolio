@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './work.css';
 import { projects } from '../../data';
-import ProjectsItem from './ProjectsItem';
 import { AnimatePresence } from 'framer-motion';
-import List from './List';
 import { SiJavascript } from 'react-icons/si';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { FaCss3Alt } from 'react-icons/fa';
+import List from './List';
+import ProjectsItem from './ProjectsItem';
 import Skills from './Skills';
 
 const allNavList = ['All', ...new Set(projects.map((project) => project.category))];
