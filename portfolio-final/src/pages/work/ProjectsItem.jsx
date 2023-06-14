@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Close from '../../assets/close.svg';
 import { motion } from 'framer-motion';
 
 const ProjectsItem = ({ projectItems }) => {
@@ -12,7 +11,7 @@ const ProjectsItem = ({ projectItems }) => {
   return (
     <>
       {projectItems.map((projectItem) => {
-        const { id, img, category, title, description, details } = projectItem;
+        const { id, img, category, title, description } = projectItem;
         return (
           <motion.div
             layout
@@ -31,39 +30,12 @@ const ProjectsItem = ({ projectItems }) => {
                 <img src={img} alt="" className="portfolio__img"/>
               </div>
               <p className="portfolio__description">{description}</p>
-            
-            {modal && (
-              <div className="portfolio__modal">
-                <div className="portfolio__modal-content">
-                  <img src={Close} alt="" className="modal__close" onClick={toggleModal} />
-
-                  <h3 className="modal__title">{title}</h3>
-
-                  <ul className="modal__list grid">
-                    {details.map(({ icon, title, desc }, index) => {
-                      return (
-                        <li className="modal__item" key={index} >
-                          <span className="item__icon">{icon}</span>
-
-                          <div>
-                            <span className="item__title">{title}</span>
-                            <span className="item__desc">{desc}</span>
-                          </div>
-                        </li>
-                      )
-                    })}
-                  </ul>
-                  <img src={img} alt="" className="modal__img"/>
-                </div>
               </div>
-            )}
-            </div>
           </motion.div>
         )
       })}
-
     </>
   );
-};
+                  };
 
 export default ProjectsItem;
