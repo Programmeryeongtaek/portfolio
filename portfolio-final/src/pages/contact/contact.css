@@ -22,7 +22,7 @@
   height: 56px;
   border-radius: 50%;
   background-color: var(--first-color);
-  color: var(--text-color);
+  color: var(--text-white);
   box-shadow: 5px 5px rgb(0 0 0 / 20%);
   font-size: var(--h3-font-size);
   display: grid;
@@ -59,7 +59,7 @@
 
 .contact__form-tag {
   margin-left: 30px;
-  font-size: var(--h4-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--weight-700);
 }
 
@@ -124,4 +124,131 @@
   transform: scale(1);
   filter: blur(0);
   opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    margin: 0 2rem;
+  }
+
+  .contact__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact__card {
+    padding-left: 90px;
+    margin-right: 3rem;
+  }
+
+  .contact__from {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact__card {
+    padding-left: 60px;
+    margin-bottom: 25px;
+    margin-right: 0rem;
+  }
+  
+  .contact__card-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .contact__card-icon::after {
+    width: 15px;
+  }
+
+  .contact__form-div {
+    row-gap: 7px;
+    margin-bottom: 25px;
+  }
+  
+  .contact__form-input {
+    height: 45px;
+    border-radius: 30px;
+    padding-inline: 10px;
+  }
+  
+  .contact__form-area .contact__form-input {
+    height: 140px;
+    padding-block: 10px;
+    resize: none;
+  }
+    
+  .contact__btn {
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact__content {
+    grid-template-columns: 1fr;
+  }
+
+  .contact__form-group {
+    grid-template-columns: 1fr;
+  }
+
+  .contact__form-div {
+    row-gap: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .contact__form-input {
+    height: 35px;
+    border-radius: 30px;
+    padding-inline: 7px;
+  }
+  
+  .contact__form-area .contact__form-input {
+    height: 100px;
+  }
+    
+  .contact__btn {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .contact__content {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact__card {
+    padding-left: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .contact__card-icon {
+    width: 30px;
+    height: 30px;
+    font-size: var(--medium-font-size);
+  }
+  
+  .contact__card-icon::after {
+    width: 15px;
+  }
+
+  .contact__form-div {
+    row-gap: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .contact__form-input {
+    height: 25px;
+    padding-inline: 4px;
+  }
+  
+  .contact__form-area .contact__form-input {
+    height: 80px;
+  }
+    
+  .contact__btn {
+    height: 35px;
+  }
 }

@@ -40,7 +40,7 @@ const Contact = () => {
           연락방법
         </h3>
 
-        <div className="contact__container container grid">
+        <div className="contact__container grid">
           <div className="contact__content">
             <div className="contact__card">
               <span className="contact__card-icon">
