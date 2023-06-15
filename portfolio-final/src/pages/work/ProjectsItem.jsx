@@ -11,7 +11,7 @@ const ProjectsItem = ({ projectItems }) => {
   return (
     <>
       {projectItems.map((projectItem) => {
-        const { id, img, category, title, description } = projectItem;
+        const { id, img, category, type, title, tools, report, report_desc, description } = projectItem;
         return (
           <motion.div
             layout
@@ -23,19 +23,28 @@ const ProjectsItem = ({ projectItems }) => {
           >
             <div className="portfolio__item" onClick={toggleModal} key={id}>
               <div className="portfolio__hover">
-                <h3 className="portfolio__title">{title}</h3>
+                <div className='portfolio__info'>
+                  <h3 className='portfolio__type'>{type}</h3>
+                  <h3 className="portfolio__title">{title}</h3>
+                </div>
               </div>
               <span className="portfolio__category">{category}</span>
               <div className="portfolio__img-wrapper">
                 <img src={img} alt="" className="portfolio__img"/>
               </div>
-              <p className="portfolio__description">{description}</p>
+              <div className='portfolio__content'>
+                <p>{tools}</p>
+                <p>{report}</p>
+                <span>{report_desc}</span>
+                <div className='portfolio__description'>{description}</div>
               </div>
+
+            </div>
           </motion.div>
         )
       })}
     </>
   );
-                  };
+};
 
 export default ProjectsItem;

@@ -37,9 +37,9 @@ const Work = () => {
       <div className="separator"></div>
 
       <section className="work">
-        <h3 className="section__subtitle subtitle__center">
+        <div className="section__subtitle subtitle__center">
           최근 작품
-        </h3>
+        </div>
         <List list={navList} filterItems={filterItems} />
 
         <div className="portfolio__container container grid">
@@ -52,9 +52,9 @@ const Work = () => {
       <div className="separator"></div>
 
       <section className="study">
-        <h3 className="section__subtitle subtitle__center">
+        <div className="section__subtitle subtitle__center">
           최근 게시글
-        </h3>
+        </div>
         
         <div className="blog__container container grid">
           <div className="blog__card">
@@ -83,9 +83,9 @@ const Work = () => {
                 <FaCss3Alt className='blog__img' />
               </div>
               <div className="blog__details">
-                <h3 className="blog__title">
+                <div className="blog__title">
                   최신 글 제목
-                </h3>
+                </div>
                 <div className="blog__meta">
                   <span>최신 작성날짜</span>
                   <span className="blog__dot">.</span>
@@ -102,9 +102,9 @@ const Work = () => {
                 <SiJavascript className='blog__img' />
               </div>
               <div className="blog__details">
-                <h3 className="blog__title">
+                <div className="blog__title">
                   최신 글 제목
-                </h3>
+                </div>
                 <div className="blog__meta">
                   <span>최신 작성날짜</span>
                   <span className="blog__dot">.</span>
