@@ -98,7 +98,7 @@
   left: 0;
   top: 0;
   background-color: var(--first-color);
-  color: var(--text-color);
+  color: var(--text-white);
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -225,6 +225,16 @@
   .info__title::before {
     width: 22px;
   }
+
+  .resume__icon {
+    width: 36px;
+    height: 36px;
+    line-height: 38px;
+  }
+
+  .resume__item {
+    padding-left: 55px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -260,6 +270,15 @@
 
   .info__description {
     width: 75%;
+  }
+
+  .resume__container {
+    grid-template-columns: 1fr;
+    row-gap: 45px;
+  }
+
+  .resume__item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
