@@ -361,541 +361,199 @@ export const projects = [
     id: 1,
     img: Work_react1,
     category: 'React',
+    type: 'Clone Coding',
     title: 'Portfolio Website',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 포트폴리오 사이트',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 2,
     img: Work_react2,
     category: 'React',
+    type: 'Clone Coding',
     title: 'Portfolio Website',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 포트폴리오 사이트',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 3,
     img: Work_react3,
     category: 'React',
+    type: 'Clone Coding',
     title: 'Portfolio Website',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 포트폴리오 사이트',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 4,
     img: Work_react4,
     category: 'React',
+    type: 'Clone Coding',
     title: 'Portfolio Website',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 포트폴리오 사이트',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 5,
     img: Work_react5,
     category: 'React',
+    type: 'Clone Coding',
     title: 'Portfolio Website',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 포트폴리오 사이트',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 6,
     img: Work_react6,
     category: 'React',
+    type: 'Clone Coding',
     title: 'Shopping Cart Ecommerce',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 쇼핑몰 계산 사이트',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 7,
     img: Work_react7,
     category: 'React',
+    type: 'Clone Coding',
     title: 'Notes App',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 메모 추가 앱',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 8,
     img: Work_react8,
     category: 'React',
+    type: 'Clone Coding',
     title: 'Search Bar',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 검색 구현 앱',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 9,
     img: Work_react9,
     category: 'React',
+    type: 'Clone Coding',
     title: 'TicTacToe',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 틱택토 게임',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 10,
     img: Work_react10,
     category: 'React',
+    type: 'Clone Coding',
     title: 'Quiz App',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 퀴즈 앱',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 11,
     img: Work_react11,
     category: 'React',
+    type: 'Clone Coding',
     title: 'Woodle App',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 단어 맞추기 게임',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 12,
     img: Work_react12,
     category: 'React',
+    type: 'Clone Coding',
     title: 'Crypto Price App',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 코인 가격 확인앱',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 13,
     img: Work_personal1,
     category: 'Personal',
+    type: 'Clone Coding',
     title: 'Portfolio Website',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '개인 포트폴리오 웹사이트',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 14,
     img: Work_JS1,
     category: 'Vanila JS',
+    type: 'Clone Coding',
     title: 'DragTools',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - Drag 기능',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 15,
     img: Work_JS2,
     category: 'Vanila JS',
+    type: 'Clone Coding',
     title: 'Typing Game',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 타이핑 게임',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 16,
     img: Work_JS3,
     category: 'Vanila JS',
+    type: 'Clone Coding',
     title: 'Tetris Game',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 테트리스 게임',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
   {
     id: 17,
     img: Work_JS4,
     category: 'Vanila JS',
+    type: 'Clone Coding',
     title: 'Mine Search Game',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 지뢰찾기 게임',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },  
   {
     id: 18,
     img: Work_JS5,
     category: 'Vanila JS',
+    type: 'Clone Coding',
     title: 'Whack Gosper Game',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Clone Coding',
-      },
-      {
-        icon: <BsTools />,
-        title: 'Tools : ',
-        desc: 'React',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML, CSS, JavaScript'
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Learned : ',
-        desc: '',
-      },
-    ],
-    description:
-      '클론코딩 - 두더지잡기 게임',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
   },
 ];
 
