@@ -34,26 +34,28 @@ const About = () => {
           </div>
 
           <div className="about__container grid">
-          <Swiper 
-              className="about__me-pictures"
-              modules={[ Pagination ]}
-              spaceBetween={24}
-              slidesPerView={1}
-              loop={true}
-              grabCursor={true}
-              pagination={{ clickable: true }}
+            <div className="about__swiper-wrapper">
+              <Swiper
+                className="about__me-pictures"
+                modules={[ Pagination ]}
+                spaceBetween={24}
+                slidesPerView={1}
+                loop={true}
+                grabCursor={true}
+                pagination={{ clickable: true }}
               >
-              {picture.map(({ id, image, title }) => {
-                return (
-                  <SwiperSlide className='about__me-picture' key={id}>
-                    <img src={image} alt="" className="about__me-photo" />
-                    <h3 className="about__me-introduce">{title}</h3>
-                  </SwiperSlide>
-                )
-              })}
-            </Swiper>
+                {picture.map(({ id, image, title }) => {
+                  return (
+                    <SwiperSlide className="about__me-picture" key={id}>
+                      <img src={image} alt="" className="about__me-photo" />
+                      <h3 className="about__me-introduce">{title}</h3>
+                    </SwiperSlide>
+                  )
+                })}
+              </Swiper>
+            </div>
             <div className="about__info">
-              <ul className="info__list grid">
+              <ul className="info__list">
                 <Info />
               </ul>
             </div>
@@ -81,7 +83,7 @@ const About = () => {
                 if (val.category === 'learn') {
                   return <ResumeItem key={val.id} {...val} />
                 }
-              })}  
+              })}
             </div>
           </div>
         </section>
@@ -95,62 +97,64 @@ const About = () => {
 
           <div className="char__container grid">
             <div className="char__tabs">
-              <div className={
-                toggleState === 1
-                ? "char__button char__active"
-                : "char__button"
-              }
-              onClick={() => toggleTab(1)}
+              <div
+                className={
+                  toggleState === 1
+                    ? 'char__button char__active'
+                    : 'char__button'
+                }
+                onClick={() => toggleTab(1)}
               >
-              취미
+                취미
               </div>
 
-              <div className={
-                toggleState === 2
-                ? "char__button char__active"
-                : "char__button"
-              }
-              onClick={() => toggleTab(2)}
+              <div
+                className={
+                  toggleState === 2
+                    ? 'char__button char__active'
+                    : 'char__button'
+                }
+                onClick={() => toggleTab(2)}
               >
-              태도
+                태도
               </div>
             </div>
 
             <div className="char__group">
               <div
-                className={toggleState === 1
-                  ? 'char__items char__items-active'
-                  : 'char__items'
+                className={
+                  toggleState === 1
+                    ? 'char__items char__items-active'
+                    : 'char__items'
                 }
               >
                 {hobby.map((val, id) => {
                   return (
                     <Card
-                    key={id}
-                    title={val.title}
+                      key={id}
+                      title={val.title}
                       subtitle={val.subtitle}
                       description={val.description}
-                    >
-                    </Card>
+                    ></Card>
                   )
                 })}
               </div>
 
               <div
-                className={toggleState === 2
-                  ? 'char__items char__items-active'
-                  : 'char__items'
+                className={
+                  toggleState === 2
+                    ? 'char__items char__items-active'
+                    : 'char__items'
                 }
-                >
+              >
                 {attitude.map((val, id) => {
                   return (
                     <Card
-                    key={id}
-                    title={val.title}
+                      key={id}
+                      title={val.title}
                       subtitle={val.subtitle}
                       description={val.description}
-                      >
-                    </Card>
+                    ></Card>
                   )
                 })}
               </div>
