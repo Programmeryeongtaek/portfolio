@@ -15,7 +15,7 @@
   --text-white: #fff;
 
   /* Font and Typography */
-  --body-font: 'Open Snas', sans-serif;
+  --body-font: 'Open Sans', sans-serif;
   --second-font: 'Poppins', sans-serif;
 
   --big-font-size: 56px;
@@ -216,4 +216,86 @@ img {
 .card-two {
   padding: 20px 30px;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: calc(100% - 180px);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .grid {
+    gap: 20px;
+  }
+
+  .card-one {
+    padding: 25px 30px;
+  }
+  
+  .card-two {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .section {
+    padding-block: 50px;
+  }
+
+  .section__title {
+    margin-bottom: 40px;
+  }
+
+  .subtitle__center {
+    margin-bottom: 45px;
+  }
+
+  .separator {
+    margin: 65px auto 50px;
+  }
+
+  .card-one {
+    padding: 20px 25px;
+  }
+  
+  .card-two {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .card-one {
+    padding: 15px 20px;
+  }
+  
+  .card-two {
+    padding: 5px 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    max-width: 250px;
+  }
 }
