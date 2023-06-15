@@ -268,7 +268,6 @@
 .skills__logo {
   width: 140px;
   height: 140px;
-  object-fit: c;
 }
 
 .skills__ability {
@@ -370,6 +369,11 @@
   .portfolio__content {
     margin: 0.1rem 0;
   }
+
+  .blog__container {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -385,6 +389,10 @@
   .portfolio__content {
     margin: 0;
     font-size: var(--medium-font-size);
+  }
+
+  .blog__container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -437,6 +445,10 @@
   
   .portfolio__img {
     height: 180px;
+  }
+
+  .blog__container {
+    grid-template-columns: 1fr;
   }
 }
 
