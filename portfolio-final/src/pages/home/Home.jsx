@@ -26,7 +26,9 @@ const Home = () => {
             <Balancer>
               유능한 프론트엔드 개발자로서 자리잡기 위해 분투하고 있습니다.
             </Balancer>
-            <Balancer>끊임없이 배우고 질문하고 정리하고 있습니다.</Balancer>
+            <Balancer>
+              끊임없이 배우고 질문하고 정리하고 있습니다.
+            </Balancer>
           </p>
 
           <HomeSocialLink />

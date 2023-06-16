@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Provider as WrapBalancerProvider } from 'react-wrap-balancer';
 import ThemeMode from './components/themeMode/ThemeMode';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
@@ -11,6 +11,7 @@ import Nav from './components/nav/Nav';
 
 function App() {
   return (
+    <WrapBalancerProvider>
     <BrowserRouter>
       <Nav />
       <ThemeMode />
@@ -22,6 +23,7 @@ function App() {
       </Routes>
       <ScrollUp />
     </BrowserRouter>
+    </WrapBalancerProvider>
   );
 };
 

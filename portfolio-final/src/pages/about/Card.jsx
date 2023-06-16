@@ -1,14 +1,17 @@
 import React from 'react';
+import { Balancer } from 'react-wrap-balancer';
 
 const Card = ({ title, subtitle, description }) => {
 
   return (
     <div className="char__data">
-      <div>
+      <div className='char__info'>
         <h3 className="char__title">{title}</h3>
-        <span className="char__subtitle">{subtitle}</span>
+        <Balancer className="char__subtitle">{subtitle}</Balancer>
       </div>
-      <span className="char__description">{description}</span>
+      <Balancer className="char__description">
+        {description}
+      </Balancer>
     </div>
   );
 };
