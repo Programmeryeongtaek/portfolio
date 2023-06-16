@@ -358,6 +358,10 @@
   .portfolio__content {
     margin: 0.5rem 0;
   }
+
+  .skills__card {
+    padding: 1.5rem 0 4.5rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -373,6 +377,27 @@
   .blog__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1.5rem;
+  }
+  
+  .skills__logo {
+    width: 110px;
+    height: 110px;
+  }
+  
+  .skills__ability {
+    row-gap: 35px;
+  }
+
+  .skills__card {
+    padding: 1.5rem 0;
+  }
+
+  .skills__study {
+    width: 45%;
+  }
+
+  .skills__img {
+    height: 85%;
   }
 }
 
@@ -394,6 +419,36 @@
   .blog__container {
     grid-template-columns: repeat(2, 1fr);
   }
+    
+  .skills__logo {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .skills__ability {
+    row-gap: 35px;
+  }
+
+  .skills__table {
+    padding: 15px;
+    width: 30%;
+  }
+
+  .skills__card {
+    padding: 1rem 0 0;
+  }
+
+  .skills__study {
+    width: 60%;
+  }
+
+  .skills__img {
+    height: 85%;
+  }
+
+  .skills__book {
+    padding-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -414,6 +469,36 @@
   
   .portfolio__img {
     height: 220px;
+  }
+
+  .skills__logo {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .skills__ability {
+    row-gap: 30px;
+  }
+
+  .skills__table {
+    padding: 10px;
+    width: 30%;
+  }
+
+  .skills__card {
+    padding: 0.5rem;
+  }
+
+  .skills__study {
+    width: 65%;
+  }
+
+  .skills__img {
+    height: 85%;
+  }
+
+  .skills__book {
+    padding-bottom: 0px;
   }
 }
 
@@ -450,6 +535,41 @@
   .blog__container {
     grid-template-columns: 1fr;
   }
+
+  .skills__ability {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0px;
+  }
+
+  .skills__ability-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills__logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skills__content-active {
+    max-height: 500px;
+    height: 300px;
+  }
+  
+  .skills__table {
+    padding: 1rem 0;
+    width: 100%;
+    border: none;
+  }
+  
+  .skills__know-title {
+    text-align: center;
+  }
+
+  .skills__study {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -464,5 +584,9 @@
   
   .portfolio__content {
     display: none;
+  }
+
+  .skills__ability {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
