@@ -9,6 +9,7 @@ import Balancer from 'react-wrap-balancer';
 const Home = () => {
   return (
     <section className="home sction grid">
+      <HomeSocialLink />
       <img src={Profile} alt="" className="home__img" />
 
       <div className="home__content">
@@ -30,8 +31,6 @@ const Home = () => {
               끊임없이 배우고 질문하고 정리하고 있습니다.
             </Balancer>
           </p>
-
-          <HomeSocialLink />
 
           <Link to="/about" className="button">
             자기소개
