@@ -30,6 +30,8 @@ import Work_react9 from './assets/project/react/TicTacToeApp.png';
 import Work_react10 from './assets/project/react/QuizApp.png';
 import Work_react11 from './assets/project/react/WoodleApp.png';
 import Work_react12 from './assets/project/react/CryptoPriceApp.png';
+import Work_react13 from './assets/project/react/DiceGame.png';
+import Work_react14 from './assets/project/react/Rock-Scissors-Paper Game.png';
 
 import Work_personal1 from './assets/project/personal/portfolio.png';
 
@@ -38,6 +40,9 @@ import Work_JS2 from './assets/project/javascript/TypingGameApp.png';
 import Work_JS3 from './assets/project/javascript/TetrisApp.png';
 import Work_JS4 from './assets/project/javascript/MineSearchApp.png';
 import Work_JS5 from './assets/project/javascript/WhackGospherApp.png';
+import Work_JS6 from './assets/project/javascript/PuzzleGame.png';
+import Work_JS7 from './assets/project/javascript/NumberBaseballGame.png';
+import Work_JS8 from './assets/project/javascript/ConcentrationGame.png';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -362,55 +367,60 @@ export const projects = [
     img: Work_react1,
     category: 'React',
     type: 'Clone Coding',
-    title: 'Portfolio Website',
+    title: 'Portfolio Website 1',
     tools: 'React',
     report: 'Learned : ',
     report_desc: '', 
     description: '',
+    url: 'https://clonecoding-portfolio-website-1.netlify.app',
   },
   {
     id: 2,
     img: Work_react2,
     category: 'React',
     type: 'Clone Coding',
-    title: 'Portfolio Website',
+    title: 'Portfolio Website 2',
     tools: 'React',
     report: 'Learned : ',
     report_desc: '', 
     description: '',
+    url: 'https://clonecoding-portfolio-website-2.netlify.app',
   },
   {
     id: 3,
     img: Work_react3,
     category: 'React',
     type: 'Clone Coding',
-    title: 'Portfolio Website',
+    title: 'Portfolio Website 3',
     tools: 'React',
     report: 'Learned : ',
     report_desc: '', 
     description: '',
+    url: 'https://clonecoding-portfolio-website-3.netlify.app',
   },
   {
     id: 4,
     img: Work_react4,
     category: 'React',
     type: 'Clone Coding',
-    title: 'Portfolio Website',
+    title: 'Portfolio Website 4',
     tools: 'React',
     report: 'Learned : ',
     report_desc: '', 
     description: '',
+    url: 'https://clonecoding-portfolio-website-4.netlify.app',
   },
   {
     id: 5,
     img: Work_react5,
     category: 'React',
     type: 'Clone Coding',
-    title: 'Portfolio Website',
+    title: 'Portfolio Website 5',
     tools: 'React',
     report: 'Learned : ',
     report_desc: '', 
     description: '',
+    url: 'https://clonecoding-portfolio-website-5.netlify.app',
   },
   {
     id: 6,
@@ -422,7 +432,9 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
+    url: 'https://clonecoding-shipping-cart-ecommerce.netlify.app',
   },
+  /*
   {
     id: 7,
     img: Work_react7,
@@ -489,19 +501,45 @@ export const projects = [
     report_desc: '', 
     description: '',
   },
+  */
   {
     id: 13,
+    img: Work_react13,
+    category: 'React',
+    type: 'Clone Coding',
+    title: 'Dice Game',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
+    url: 'https://dicegame-codeit.netlify.app',
+  },
+  {
+    id: 14,
+    img: Work_react14,
+    category: 'React',
+    type: 'Clone Coding',
+    title: 'Rock-Scissors-Paper Game',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
+    url: 'https://rock-scissors-paper-game-codeit.netlify.app',
+  },
+  {
+    id: 21,
     img: Work_personal1,
     category: 'Personal',
-    type: 'Clone Coding',
+    type: '',
     title: 'Portfolio Website',
     tools: 'React',
     report: 'Learned : ',
     report_desc: '', 
     description: '',
+    url: 'https://taedyeong-portfolio-website.netlify.app',
   },
   {
-    id: 14,
+    id: 31,
     img: Work_JS1,
     category: 'Vanila JS',
     type: 'Clone Coding',
@@ -510,9 +548,10 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
+    url: 'clonecoding-drag.netlify.app',
   },
   {
-    id: 15,
+    id: 32,
     img: Work_JS2,
     category: 'Vanila JS',
     type: 'Clone Coding',
@@ -521,9 +560,10 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
+    url: 'clonecoding-typing-game.netlify.app',
   },
   {
-    id: 16,
+    id: 33,
     img: Work_JS3,
     category: 'Vanila JS',
     type: 'Clone Coding',
@@ -532,9 +572,10 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
+    url: 'clonecoding-tetris-game.netlify.app',
   },
   {
-    id: 17,
+    id: 34,
     img: Work_JS4,
     category: 'Vanila JS',
     type: 'Clone Coding',
@@ -543,9 +584,10 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
+    url: 'clonecoding-minesearch-game.netlify.app',
   },  
   {
-    id: 18,
+    id: 35,
     img: Work_JS5,
     category: 'Vanila JS',
     type: 'Clone Coding',
@@ -554,6 +596,43 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
+    url: 'clonecoding-whackgopher-game.netlify.app',
+  },
+  {
+    id: 36,
+    img: Work_JS6,
+    category: 'Vanila JS',
+    type: 'Clone Coding',
+    title: 'Puzzle Game',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
+    url: 'clonecoding-puzzle-game.netlify.app',
+  },
+  {
+    id: 37,
+    img: Work_JS7,
+    category: 'Vanila JS',
+    type: 'Clone Coding',
+    title: 'Number Baseball Game',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
+    url: 'clonecoding-numberbaseball-game.netlify.app',
+  },
+  {
+    id: 38,
+    img: Work_JS8,
+    category: 'Vanila JS',
+    type: 'Clone Coding',
+    title: 'Concentration Game',
+    tools: 'React',
+    report: 'Learned : ',
+    report_desc: '', 
+    description: '',
+    url: 'clonecoding-concentration-game.netlify.app',
   },
 ];
 
