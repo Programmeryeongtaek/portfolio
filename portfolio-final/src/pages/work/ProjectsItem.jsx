@@ -2,16 +2,10 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const ProjectsItem = ({ projectItems }) => {
-  const [modal, setModal] = useState(false);
-
-  const toggleModal = () => {
-    setModal(!modal);
-  };
-
   return (
     <>
       {projectItems.map((projectItem) => {
-        const { id, img, category, type, title, tools, report, report_desc, description } = projectItem;
+        const { id, img, category, type, title, tools, report, report_desc, description, url } = projectItem;
         return (
           <motion.div
             layout
@@ -21,13 +15,13 @@ const ProjectsItem = ({ projectItems }) => {
             transition={{ duration: 0.3 }}
             className='portfolio__items card card-two'
           >
-            <div className="portfolio__item" onClick={toggleModal} key={id}>
-              <div className="portfolio__hover">
+            <div className="portfolio__item" key={id}>
+              <a className="portfolio__hover" href={url} target='_blank' rel='noreferrer'>
                 <div className='portfolio__info'>
                   <h3 className='portfolio__type'>{type}</h3>
                   <h3 className="portfolio__title">{title}</h3>
                 </div>
-              </div>
+              </a>
               <span className="portfolio__category">{category}</span>
               <div className="portfolio__img-wrapper">
                 <img src={img} alt="" className="portfolio__img"/>
