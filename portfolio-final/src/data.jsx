@@ -548,7 +548,7 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
-    url: 'clonecoding-drag.netlify.app',
+    url: 'https://clonecoding-drag.netlify.app',
   },
   {
     id: 32,
@@ -560,7 +560,7 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
-    url: 'clonecoding-typing-game.netlify.app',
+    url: 'https://clonecoding-typing-game.netlify.app',
   },
   {
     id: 33,
@@ -572,7 +572,7 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
-    url: 'clonecoding-tetris-game.netlify.app',
+    url: 'https://clonecoding-tetris-game.netlify.app',
   },
   {
     id: 34,
@@ -584,7 +584,7 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
-    url: 'clonecoding-minesearch-game.netlify.app',
+    url: 'https://clonecoding-minesearch-game.netlify.app',
   },  
   {
     id: 35,
@@ -596,7 +596,7 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
-    url: 'clonecoding-whackgopher-game.netlify.app',
+    url: 'https://clonecoding-whackgopher-game.netlify.app',
   },
   {
     id: 36,
@@ -608,7 +608,7 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
-    url: 'clonecoding-puzzle-game.netlify.app',
+    url: 'https://clonecoding-puzzle-game.netlify.app',
   },
   {
     id: 37,
@@ -620,7 +620,7 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
-    url: 'clonecoding-numberbaseball-game.netlify.app',
+    url: 'https://clonecoding-numberbaseball-game.netlify.app',
   },
   {
     id: 38,
@@ -632,7 +632,7 @@ export const projects = [
     report: 'Learned : ',
     report_desc: '', 
     description: '',
-    url: 'clonecoding-concentration-game.netlify.app',
+    url: 'https://clonecoding-concentration-game.netlify.app',
   },
 ];
 
